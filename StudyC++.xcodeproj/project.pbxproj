@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D205A93C2194926700DDB02B /* 一维数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D205A93B2194926700DDB02B /* 一维数组.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		D03941E2218B047800347955 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -30,6 +34,7 @@
 		D057D49A21943ED800565B53 /* 二级指针做函数参数_输出特性.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二级指针做函数参数_输出特性.cpp"; sourceTree = "<group>"; };
 		D057D49B21943ED800565B53 /* 指针的步长.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "指针的步长.cpp"; sourceTree = "<group>"; };
 		D057D49C21943ED800565B53 /* Const的使用.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Const的使用.cpp"; sourceTree = "<group>"; };
+		D205A93B2194926700DDB02B /* 一维数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "一维数组.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,7 @@
 				D057D49A21943ED800565B53 /* 二级指针做函数参数_输出特性.cpp */,
 				D057D49B21943ED800565B53 /* 指针的步长.cpp */,
 				D057D49C21943ED800565B53 /* Const的使用.cpp */,
+				D205A93B2194926700DDB02B /* 一维数组.cpp */,
 			);
 			path = "C基础";
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D205A93C2194926700DDB02B /* 一维数组.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
