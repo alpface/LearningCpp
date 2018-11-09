@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D057D4AC2195574800565B53 /* 结构体的基本概念.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D057D4AB2195574800565B53 /* 结构体的基本概念.cpp */; };
+		D05E959F2195902A00FA03B2 /* 结构体嵌套一级指针.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D05E959E2195902A00FA03B2 /* 结构体嵌套一级指针.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +37,8 @@
 		D057D4A621952D0600565B53 /* 二维数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "二维数组.cpp"; sourceTree = "<group>"; };
 		D057D4A82195461000565B53 /* 指针数组排序_选择排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "指针数组排序_选择排序.cpp"; sourceTree = "<group>"; };
 		D057D4AB2195574800565B53 /* 结构体的基本概念.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "结构体的基本概念.cpp"; sourceTree = "<group>"; };
+		D057D4AD21957F2500565B53 /* 结构体赋值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "结构体赋值.cpp"; sourceTree = "<group>"; };
+		D05E959E2195902A00FA03B2 /* 结构体嵌套一级指针.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "结构体嵌套一级指针.cpp"; sourceTree = "<group>"; };
 		D205A93B2194926700DDB02B /* 一维数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "一维数组.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,8 @@
 				D057D4A621952D0600565B53 /* 二维数组.cpp */,
 				D057D4A82195461000565B53 /* 指针数组排序_选择排序.cpp */,
 				D057D4AB2195574800565B53 /* 结构体的基本概念.cpp */,
+				D057D4AD21957F2500565B53 /* 结构体赋值.cpp */,
+				D05E959E2195902A00FA03B2 /* 结构体嵌套一级指针.cpp */,
 			);
 			path = "C基础";
 			sourceTree = "<group>";
@@ -152,7 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D057D4AC2195574800565B53 /* 结构体的基本概念.cpp in Sources */,
+				D05E959F2195902A00FA03B2 /* 结构体嵌套一级指针.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
