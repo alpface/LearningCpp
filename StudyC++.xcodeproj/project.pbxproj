@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D05E959F2195902A00FA03B2 /* 结构体嵌套一级指针.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D05E959E2195902A00FA03B2 /* 结构体嵌套一级指针.cpp */; };
+		D205A93E2196CA2000DDB02B /* 16结构体嵌套二级指针.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D205A93D2196CA2000DDB02B /* 16结构体嵌套二级指针.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,22 +24,23 @@
 
 /* Begin PBXFileReference section */
 		D03941E4218B047800347955 /* StudyC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "StudyC++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D057D49321943ED800565B53 /* 二级指针练习_文件读写.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二级指针练习_文件读写.cpp"; sourceTree = "<group>"; };
-		D057D49421943ED800565B53 /* 查找子字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "查找子字符串.cpp"; sourceTree = "<group>"; };
-		D057D49521943ED800565B53 /* main1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main1.cpp; sourceTree = "<group>"; };
-		D057D49621943ED800565B53 /* 二级指针做函数参数_输入特性.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二级指针做函数参数_输入特性.cpp"; sourceTree = "<group>"; };
+		D057D49321943ED800565B53 /* 09二级指针练习_文件读写.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "09二级指针练习_文件读写.cpp"; sourceTree = "<group>"; };
+		D057D49421943ED800565B53 /* 08查找子字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "08查找子字符串.cpp"; sourceTree = "<group>"; };
+		D057D49521943ED800565B53 /* 01main1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 01main1.cpp; sourceTree = "<group>"; };
+		D057D49621943ED800565B53 /* 07二级指针做函数参数_输入特性.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "07二级指针做函数参数_输入特性.cpp"; sourceTree = "<group>"; };
 		D057D49721943ED800565B53 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
-		D057D49821943ED800565B53 /* 格式化字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "格式化字符串.cpp"; sourceTree = "<group>"; };
-		D057D49921943ED800565B53 /* calloc&realloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "calloc&realloc.cpp"; sourceTree = "<group>"; };
-		D057D49A21943ED800565B53 /* 二级指针做函数参数_输出特性.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二级指针做函数参数_输出特性.cpp"; sourceTree = "<group>"; };
-		D057D49B21943ED800565B53 /* 指针的步长.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "指针的步长.cpp"; sourceTree = "<group>"; };
-		D057D49C21943ED800565B53 /* Const的使用.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Const的使用.cpp"; sourceTree = "<group>"; };
-		D057D4A621952D0600565B53 /* 二维数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "二维数组.cpp"; sourceTree = "<group>"; };
-		D057D4A82195461000565B53 /* 指针数组排序_选择排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "指针数组排序_选择排序.cpp"; sourceTree = "<group>"; };
-		D057D4AB2195574800565B53 /* 结构体的基本概念.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "结构体的基本概念.cpp"; sourceTree = "<group>"; };
-		D057D4AD21957F2500565B53 /* 结构体赋值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "结构体赋值.cpp"; sourceTree = "<group>"; };
-		D05E959E2195902A00FA03B2 /* 结构体嵌套一级指针.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "结构体嵌套一级指针.cpp"; sourceTree = "<group>"; };
-		D205A93B2194926700DDB02B /* 一维数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "一维数组.cpp"; sourceTree = "<group>"; };
+		D057D49821943ED800565B53 /* 02格式化字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "02格式化字符串.cpp"; sourceTree = "<group>"; };
+		D057D49921943ED800565B53 /* 03calloc&realloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "03calloc&realloc.cpp"; sourceTree = "<group>"; };
+		D057D49A21943ED800565B53 /* 06二级指针做函数参数_输出特性.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "06二级指针做函数参数_输出特性.cpp"; sourceTree = "<group>"; };
+		D057D49B21943ED800565B53 /* 04指针的步长.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "04指针的步长.cpp"; sourceTree = "<group>"; };
+		D057D49C21943ED800565B53 /* 05Const的使用.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "05Const的使用.cpp"; sourceTree = "<group>"; };
+		D057D4A621952D0600565B53 /* 11二维数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11二维数组.cpp"; sourceTree = "<group>"; };
+		D057D4A82195461000565B53 /* 12指针数组排序_选择排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12指针数组排序_选择排序.cpp"; sourceTree = "<group>"; };
+		D057D4AB2195574800565B53 /* 13结构体的基本概念.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "13结构体的基本概念.cpp"; sourceTree = "<group>"; };
+		D057D4AD21957F2500565B53 /* 14结构体赋值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "14结构体赋值.cpp"; sourceTree = "<group>"; };
+		D05E959E2195902A00FA03B2 /* 15结构体嵌套一级指针.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "15结构体嵌套一级指针.cpp"; sourceTree = "<group>"; };
+		D205A93B2194926700DDB02B /* 10一维数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10一维数组.cpp"; sourceTree = "<group>"; };
+		D205A93D2196CA2000DDB02B /* 16结构体嵌套二级指针.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "16结构体嵌套二级指针.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,22 +81,23 @@
 		D057D49221943ED800565B53 /* C基础 */ = {
 			isa = PBXGroup;
 			children = (
-				D057D49321943ED800565B53 /* 二级指针练习_文件读写.cpp */,
-				D057D49421943ED800565B53 /* 查找子字符串.cpp */,
-				D057D49521943ED800565B53 /* main1.cpp */,
-				D057D49621943ED800565B53 /* 二级指针做函数参数_输入特性.cpp */,
+				D057D49321943ED800565B53 /* 09二级指针练习_文件读写.cpp */,
+				D057D49421943ED800565B53 /* 08查找子字符串.cpp */,
+				D057D49521943ED800565B53 /* 01main1.cpp */,
+				D057D49621943ED800565B53 /* 07二级指针做函数参数_输入特性.cpp */,
 				D057D49721943ED800565B53 /* test.txt */,
-				D057D49821943ED800565B53 /* 格式化字符串.cpp */,
-				D057D49921943ED800565B53 /* calloc&realloc.cpp */,
-				D057D49A21943ED800565B53 /* 二级指针做函数参数_输出特性.cpp */,
-				D057D49B21943ED800565B53 /* 指针的步长.cpp */,
-				D057D49C21943ED800565B53 /* Const的使用.cpp */,
-				D205A93B2194926700DDB02B /* 一维数组.cpp */,
-				D057D4A621952D0600565B53 /* 二维数组.cpp */,
-				D057D4A82195461000565B53 /* 指针数组排序_选择排序.cpp */,
-				D057D4AB2195574800565B53 /* 结构体的基本概念.cpp */,
-				D057D4AD21957F2500565B53 /* 结构体赋值.cpp */,
-				D05E959E2195902A00FA03B2 /* 结构体嵌套一级指针.cpp */,
+				D057D49821943ED800565B53 /* 02格式化字符串.cpp */,
+				D057D49921943ED800565B53 /* 03calloc&realloc.cpp */,
+				D057D49A21943ED800565B53 /* 06二级指针做函数参数_输出特性.cpp */,
+				D057D49B21943ED800565B53 /* 04指针的步长.cpp */,
+				D057D49C21943ED800565B53 /* 05Const的使用.cpp */,
+				D205A93B2194926700DDB02B /* 10一维数组.cpp */,
+				D057D4A621952D0600565B53 /* 11二维数组.cpp */,
+				D057D4A82195461000565B53 /* 12指针数组排序_选择排序.cpp */,
+				D057D4AB2195574800565B53 /* 13结构体的基本概念.cpp */,
+				D057D4AD21957F2500565B53 /* 14结构体赋值.cpp */,
+				D05E959E2195902A00FA03B2 /* 15结构体嵌套一级指针.cpp */,
+				D205A93D2196CA2000DDB02B /* 16结构体嵌套二级指针.cpp */,
 			);
 			path = "C基础";
 			sourceTree = "<group>";
@@ -156,7 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D05E959F2195902A00FA03B2 /* 结构体嵌套一级指针.cpp in Sources */,
+				D205A93E2196CA2000DDB02B /* 16结构体嵌套二级指针.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
