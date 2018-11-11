@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D205A93E2196CA2000DDB02B /* 16结构体嵌套二级指针.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D205A93D2196CA2000DDB02B /* 16结构体嵌套二级指针.cpp */; };
+		D249A770219804B200BC9089 /* ConfigFile.c in Sources */ = {isa = PBXBuildFile; fileRef = D249A76F219804B200BC9089 /* ConfigFile.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +41,11 @@
 		D05E959E2195902A00FA03B2 /* 15结构体嵌套一级指针.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "15结构体嵌套一级指针.cpp"; sourceTree = "<group>"; };
 		D205A93B2194926700DDB02B /* 10一维数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10一维数组.cpp"; sourceTree = "<group>"; };
 		D205A93D2196CA2000DDB02B /* 16结构体嵌套二级指针.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "16结构体嵌套二级指针.cpp"; sourceTree = "<group>"; };
+		D249A7692197B8E000BC9089 /* 17结构体偏移量.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "17结构体偏移量.cpp"; sourceTree = "<group>"; };
+		D249A76B2197FAA800BC9089 /* 18文件操作复习.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "18文件操作复习.cpp"; sourceTree = "<group>"; };
+		D249A76D2197FADF00BC9089 /* 18text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 18text.txt; sourceTree = "<group>"; };
+		D249A76E2198013200BC9089 /* ConfigFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigFile.h; sourceTree = "<group>"; };
+		D249A76F219804B200BC9089 /* ConfigFile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ConfigFile.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +103,11 @@
 				D057D4AD21957F2500565B53 /* 14结构体赋值.cpp */,
 				D05E959E2195902A00FA03B2 /* 15结构体嵌套一级指针.cpp */,
 				D205A93D2196CA2000DDB02B /* 16结构体嵌套二级指针.cpp */,
+				D249A7692197B8E000BC9089 /* 17结构体偏移量.cpp */,
+				D249A76B2197FAA800BC9089 /* 18文件操作复习.cpp */,
+				D249A76D2197FADF00BC9089 /* 18text.txt */,
+				D249A76E2198013200BC9089 /* ConfigFile.h */,
+				D249A76F219804B200BC9089 /* ConfigFile.c */,
 			);
 			path = "C基础";
 			sourceTree = "<group>";
@@ -158,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D205A93E2196CA2000DDB02B /* 16结构体嵌套二级指针.cpp in Sources */,
+				D249A770219804B200BC9089 /* ConfigFile.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
