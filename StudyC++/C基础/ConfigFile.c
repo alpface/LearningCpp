@@ -139,22 +139,3 @@ int isVilid_configFile(const char *buf) {
     return 1;
 }
 
-void test()
-{
-    char **fileData = NULL;
-    int lines = 0;
-    char *filePath = "/Users/xiaoyuan/Destop/work/GitHub/StudyC++/StudyC++/C基础/19config.ini";
-    struct ConfigInfo *infos = NULL;
-    loadFile_configFile(filePath, &fileData, &lines);
-    parseFile_configFile(fileData, lines, &infos);
-    char *value = getInfo_configFile("username", infos, lines);
-    printf("%s\n", value);
-    destoryInfo_configFile(infos);
-    return;
-}
-
-int main(int argc, const char *argv[])
-{
-    test();
-    return 0;
-}

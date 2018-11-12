@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D249A770219804B200BC9089 /* ConfigFile.c in Sources */ = {isa = PBXBuildFile; fileRef = D249A76F219804B200BC9089 /* ConfigFile.c */; };
+		D0628EFB2199642700E60EC3 /* ConfigFile.c in Sources */ = {isa = PBXBuildFile; fileRef = D249A76F219804B200BC9089 /* ConfigFile.c */; };
+		D0628EFD2199769C00E60EC3 /* 21函数指针做函数参数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0628EFC2199769C00E60EC3 /* 21函数指针做函数参数.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,9 @@
 		D057D4AD21957F2500565B53 /* 14结构体赋值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "14结构体赋值.cpp"; sourceTree = "<group>"; };
 		D05E959E2195902A00FA03B2 /* 15结构体嵌套一级指针.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "15结构体嵌套一级指针.cpp"; sourceTree = "<group>"; };
 		D0628EF6219948F700E60EC3 /* 19config.ini */ = {isa = PBXFileReference; lastKnownFileType = text; path = 19config.ini; sourceTree = "<group>"; };
+		D0628EF72199635400E60EC3 /* 20函数指针.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "20函数指针.cpp"; sourceTree = "<group>"; };
+		D0628EF9219963A000E60EC3 /* 19配置文件解析封装.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "19配置文件解析封装.cpp"; sourceTree = "<group>"; };
+		D0628EFC2199769C00E60EC3 /* 21函数指针做函数参数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "21函数指针做函数参数.cpp"; sourceTree = "<group>"; };
 		D205A93B2194926700DDB02B /* 10一维数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10一维数组.cpp"; sourceTree = "<group>"; };
 		D205A93D2196CA2000DDB02B /* 16结构体嵌套二级指针.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "16结构体嵌套二级指针.cpp"; sourceTree = "<group>"; };
 		D249A7692197B8E000BC9089 /* 17结构体偏移量.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "17结构体偏移量.cpp"; sourceTree = "<group>"; };
@@ -110,6 +114,9 @@
 				D249A76E2198013200BC9089 /* ConfigFile.h */,
 				D249A76F219804B200BC9089 /* ConfigFile.c */,
 				D0628EF6219948F700E60EC3 /* 19config.ini */,
+				D0628EF9219963A000E60EC3 /* 19配置文件解析封装.cpp */,
+				D0628EF72199635400E60EC3 /* 20函数指针.cpp */,
+				D0628EFC2199769C00E60EC3 /* 21函数指针做函数参数.cpp */,
 			);
 			path = "C基础";
 			sourceTree = "<group>";
@@ -170,7 +177,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D249A770219804B200BC9089 /* ConfigFile.c in Sources */,
+				D0628EFB2199642700E60EC3 /* ConfigFile.c in Sources */,
+				D0628EFD2199769C00E60EC3 /* 21函数指针做函数参数.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
