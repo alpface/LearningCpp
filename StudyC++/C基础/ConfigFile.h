@@ -4,9 +4,11 @@
 //
 //  Created by swae on 2018/11/11.
 //  Copyright © 2018 xiaoyuan. All rights reserved.
-//
+//  配置文件操作接口封装 
 
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 // 防止头文件重复包含
 #pragma once
@@ -27,13 +29,13 @@ struct ConfigInfo {
         // 加载配置文件
         void loadFile_configFile(const char *filePath, char ***fileData, int *lines);
         // 解析配置文件
-        void parseFile_configFile(char **fileData, int liens, struct ConfigInfo **info);
+        void parseFile_configFile(char **fileData, int lines, struct ConfigInfo **infos);
         // 获取指定配置信息
-        char *getInfo_configFile(const char *key, struct ConfigInfo *info);
+        char *getInfo_configFile(const char *key, struct ConfigInfo *infos, int lines);
         // 释放配置文件信息
         void destoryInfo_configFile(struct ConfigInfo *info);
         // 判断当前行是否有效
-        void isVilid_configFile(const char *buf);
+        int isVilid_configFile(const char *buf);
 
 #ifdef __cplusplus
     }
