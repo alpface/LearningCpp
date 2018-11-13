@@ -28,6 +28,11 @@ int main(int argc, const char *argv[])
     scanf("%d", &removeNum);
     RemoveValue_LinkList(headerNode, removeNum);
     ForEach_LinkList(headerNode);
+    printf("逆序链表：\n");
+    // 逆序链表
+    Reverse_LinkList(headerNode);
+    ForEach_LinkList(headerNode);
+    printf("清空链表：\n");
     // 清空链表
     Clean_LinkList(headerNode);
     ForEach_LinkList(headerNode);

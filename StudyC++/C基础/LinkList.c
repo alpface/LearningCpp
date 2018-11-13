@@ -181,3 +181,27 @@ void Clean_LinkList(struct LinkData *header) {
     // 清空header
     header->next = NULL;
 }
+
+// 逆序链表中的元素
+void Reverse_LinkList(struct LinkData *header) {
+    if (NULL == header) {
+        return;
+    }
+    
+    // 定义指针辅助变量
+    struct LinkData *pPrevious = NULL;
+    struct LinkData *pCurrent = header->next;
+    struct LinkData *pNext = NULL;
+    
+    while (pCurrent != NULL) {
+        
+        // 交换
+        pNext = pCurrent->next;
+        pCurrent->next = pPrevious;
+        
+        pPrevious = pCurrent;
+        pCurrent = pNext;
+        
+    }
+    header->next = pPrevious;
+}

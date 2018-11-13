@@ -38,6 +38,9 @@ extern "C"{
     // 清空
     void Clean_LinkList(struct LinkData *header);
     
+    // 逆序链表中的元素
+    void Reverse_LinkList(struct LinkData *header);
+    
 #ifdef __cplusplus
 }
 #endif
