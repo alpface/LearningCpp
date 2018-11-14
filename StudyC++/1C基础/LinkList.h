@@ -6,6 +6,8 @@
 //  Copyright © 2018 xiaoyuan. All rights reserved.
 //
 
+#pragma once
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>

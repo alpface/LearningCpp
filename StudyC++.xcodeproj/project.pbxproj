@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0628EFB2199642700E60EC3 /* ConfigFile.c in Sources */ = {isa = PBXBuildFile; fileRef = D249A76F219804B200BC9089 /* ConfigFile.c */; };
-		D06983CE219ACCAE0057256E /* 25排序算法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D06983CD219ACCAE0057256E /* 25排序算法.cpp */; };
-		D0CD2C71219A6C6C0003528D /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = D0CD2C70219A6C6C0003528D /* LinkList.c */; };
-		D249A7722199C01600BC9089 /* 22链表的基本概念.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D249A7712199C01600BC9089 /* 22链表的基本概念.cpp */; };
+		D0551164219C092C009A68BF /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = D055113B219C092C009A68BF /* LinkList.c */; };
+		D055117B219C092C009A68BF /* ConfigFile.c in Sources */ = {isa = PBXBuildFile; fileRef = D0551158219C092C009A68BF /* ConfigFile.c */; };
+		D0551180219C092C009A68BF /* MyDylib.c in Sources */ = {isa = PBXBuildFile; fileRef = D055115E219C092C009A68BF /* MyDylib.c */; };
+		D0551184219C09C7009A68BF /* 28面向接口编程.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D055114E219C092C009A68BF /* 28面向接口编程.cpp */; };
+		D0551185219C09EE009A68BF /* MyDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = D0551140219C092C009A68BF /* MyDylib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0551187219C0A1B009A68BF /* libMyDylib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D0551124219BC2EF009A68BF /* libMyDylib.dylib */; };
+		D0551188219C0A1B009A68BF /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0551112219BBBF8009A68BF /* libMyLib.a */; };
+		D0551189219C0A43009A68BF /* MyLib.c in Sources */ = {isa = PBXBuildFile; fileRef = D055114C219C092C009A68BF /* MyLib.c */; };
+		D055118A219C0A50009A68BF /* MyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = D0551139219C092C009A68BF /* MyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D055118B219C0A7B009A68BF /* MyDylib.c in Sources */ = {isa = PBXBuildFile; fileRef = D055115E219C092C009A68BF /* MyDylib.c */; };
+		D055118C219C0A96009A68BF /* CSocketImp1.c in Sources */ = {isa = PBXBuildFile; fileRef = D055113F219C092C009A68BF /* CSocketImp1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,42 +34,71 @@
 
 /* Begin PBXFileReference section */
 		D03941E4218B047800347955 /* StudyC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "StudyC++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D057D49321943ED800565B53 /* 09二级指针练习_文件读写.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "09二级指针练习_文件读写.cpp"; sourceTree = "<group>"; };
-		D057D49421943ED800565B53 /* 08查找子字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "08查找子字符串.cpp"; sourceTree = "<group>"; };
-		D057D49521943ED800565B53 /* 01main1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 01main1.cpp; sourceTree = "<group>"; };
-		D057D49621943ED800565B53 /* 07二级指针做函数参数_输入特性.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "07二级指针做函数参数_输入特性.cpp"; sourceTree = "<group>"; };
-		D057D49721943ED800565B53 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
-		D057D49821943ED800565B53 /* 02格式化字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "02格式化字符串.cpp"; sourceTree = "<group>"; };
-		D057D49921943ED800565B53 /* 03calloc&realloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "03calloc&realloc.cpp"; sourceTree = "<group>"; };
-		D057D49A21943ED800565B53 /* 06二级指针做函数参数_输出特性.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "06二级指针做函数参数_输出特性.cpp"; sourceTree = "<group>"; };
-		D057D49B21943ED800565B53 /* 04指针的步长.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "04指针的步长.cpp"; sourceTree = "<group>"; };
-		D057D49C21943ED800565B53 /* 05Const的使用.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "05Const的使用.cpp"; sourceTree = "<group>"; };
-		D057D4A621952D0600565B53 /* 11二维数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11二维数组.cpp"; sourceTree = "<group>"; };
-		D057D4A82195461000565B53 /* 12指针数组排序_选择排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12指针数组排序_选择排序.cpp"; sourceTree = "<group>"; };
-		D057D4AB2195574800565B53 /* 13结构体的基本概念.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "13结构体的基本概念.cpp"; sourceTree = "<group>"; };
-		D057D4AD21957F2500565B53 /* 14结构体赋值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "14结构体赋值.cpp"; sourceTree = "<group>"; };
-		D05E959E2195902A00FA03B2 /* 15结构体嵌套一级指针.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "15结构体嵌套一级指针.cpp"; sourceTree = "<group>"; };
-		D0628EF6219948F700E60EC3 /* 19config.ini */ = {isa = PBXFileReference; lastKnownFileType = text; path = 19config.ini; sourceTree = "<group>"; };
-		D0628EF72199635400E60EC3 /* 20函数指针.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "20函数指针.cpp"; sourceTree = "<group>"; };
-		D0628EF9219963A000E60EC3 /* 19配置文件解析封装.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "19配置文件解析封装.cpp"; sourceTree = "<group>"; };
-		D0628EFC2199769C00E60EC3 /* 21函数指针做函数参数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "21函数指针做函数参数.cpp"; sourceTree = "<group>"; };
-		D06983CD219ACCAE0057256E /* 25排序算法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "25排序算法.cpp"; sourceTree = "<group>"; };
-		D0CD2C6F219A6C6C0003528D /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
-		D0CD2C70219A6C6C0003528D /* LinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkList.c; sourceTree = "<group>"; };
-		D0CD2C72219A77D70003528D /* 24链表的初始化及增删改查.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "24链表的初始化及增删改查.cpp"; sourceTree = "<group>"; };
-		D205A93B2194926700DDB02B /* 10一维数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10一维数组.cpp"; sourceTree = "<group>"; };
-		D205A93D2196CA2000DDB02B /* 16结构体嵌套二级指针.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "16结构体嵌套二级指针.cpp"; sourceTree = "<group>"; };
-		D249A7692197B8E000BC9089 /* 17结构体偏移量.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "17结构体偏移量.cpp"; sourceTree = "<group>"; };
-		D249A76B2197FAA800BC9089 /* 18文件操作复习.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "18文件操作复习.cpp"; sourceTree = "<group>"; };
-		D249A76D2197FADF00BC9089 /* 18text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 18text.txt; sourceTree = "<group>"; };
-		D249A76E2198013200BC9089 /* ConfigFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigFile.h; sourceTree = "<group>"; };
-		D249A76F219804B200BC9089 /* ConfigFile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ConfigFile.c; sourceTree = "<group>"; };
-		D249A7712199C01600BC9089 /* 22链表的基本概念.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "22链表的基本概念.cpp"; sourceTree = "<group>"; };
-		D249A7732199C02800BC9089 /* 23静态链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "23静态链表.cpp"; sourceTree = "<group>"; };
+		D0551112219BBBF8009A68BF /* libMyLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0551124219BC2EF009A68BF /* libMyDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMyDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0551137219C092C009A68BF /* 18文件操作复习.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "18文件操作复习.cpp"; sourceTree = "<group>"; };
+		D0551138219C092C009A68BF /* 18text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 18text.txt; sourceTree = "<group>"; };
+		D0551139219C092C009A68BF /* MyLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLib.h; sourceTree = "<group>"; };
+		D055113A219C092C009A68BF /* 21函数指针做函数参数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "21函数指针做函数参数.cpp"; sourceTree = "<group>"; };
+		D055113B219C092C009A68BF /* LinkList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkList.c; sourceTree = "<group>"; };
+		D055113C219C092C009A68BF /* 02 strcpy、strncpy与memcpy的区别与使用方法.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "02 strcpy、strncpy与memcpy的区别与使用方法.h"; sourceTree = "<group>"; };
+		D055113D219C092C009A68BF /* 01main1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 01main1.cpp; sourceTree = "<group>"; };
+		D055113E219C092C009A68BF /* 05Const的使用.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "05Const的使用.cpp"; sourceTree = "<group>"; };
+		D055113F219C092C009A68BF /* CSocketImp1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CSocketImp1.c; sourceTree = "<group>"; };
+		D0551140219C092C009A68BF /* MyDylib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDylib.h; sourceTree = "<group>"; };
+		D0551141219C092C009A68BF /* 23静态链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "23静态链表.cpp"; sourceTree = "<group>"; };
+		D0551142219C092C009A68BF /* 08查找子字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "08查找子字符串.cpp"; sourceTree = "<group>"; };
+		D0551143219C092C009A68BF /* 14结构体赋值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "14结构体赋值.cpp"; sourceTree = "<group>"; };
+		D0551144219C092C009A68BF /* 19config.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 19config.ini; sourceTree = "<group>"; };
+		D0551145219C092C009A68BF /* 13结构体的基本概念.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "13结构体的基本概念.cpp"; sourceTree = "<group>"; };
+		D0551146219C092C009A68BF /* ConfigFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigFile.h; sourceTree = "<group>"; };
+		D0551147219C092C009A68BF /* 26静态库使用.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "26静态库使用.cpp"; sourceTree = "<group>"; };
+		D0551148219C092C009A68BF /* 10一维数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "10一维数组.cpp"; sourceTree = "<group>"; };
+		D0551149219C092C009A68BF /* 12指针数组排序_选择排序.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "12指针数组排序_选择排序.cpp"; sourceTree = "<group>"; };
+		D055114A219C092C009A68BF /* 04指针的步长.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "04指针的步长.cpp"; sourceTree = "<group>"; };
+		D055114B219C092C009A68BF /* 09二级指针练习_文件读写.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "09二级指针练习_文件读写.cpp"; sourceTree = "<group>"; };
+		D055114C219C092C009A68BF /* MyLib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MyLib.c; sourceTree = "<group>"; };
+		D055114D219C092C009A68BF /* 27递归函数实现字符串反转.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "27递归函数实现字符串反转.cpp"; sourceTree = "<group>"; };
+		D055114E219C092C009A68BF /* 28面向接口编程.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "28面向接口编程.cpp"; sourceTree = "<group>"; };
+		D055114F219C092C009A68BF /* 15结构体嵌套一级指针.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "15结构体嵌套一级指针.cpp"; sourceTree = "<group>"; };
+		D0551150219C092C009A68BF /* 24链表的初始化及增删改查.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "24链表的初始化及增删改查.cpp"; sourceTree = "<group>"; };
+		D0551151219C092C009A68BF /* 02格式化字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "02格式化字符串.cpp"; sourceTree = "<group>"; };
+		D0551152219C092C009A68BF /* 06二级指针做函数参数_输出特性.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "06二级指针做函数参数_输出特性.cpp"; sourceTree = "<group>"; };
+		D0551153219C092C009A68BF /* CSocketImp1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSocketImp1.h; sourceTree = "<group>"; };
+		D0551154219C092C009A68BF /* 26动态库使用.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "26动态库使用.cpp"; sourceTree = "<group>"; };
+		D0551155219C092C009A68BF /* 20函数指针.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "20函数指针.cpp"; sourceTree = "<group>"; };
+		D0551156219C092C009A68BF /* LinkList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
+		D0551157219C092C009A68BF /* 03calloc&realloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "03calloc&realloc.cpp"; sourceTree = "<group>"; };
+		D0551158219C092C009A68BF /* ConfigFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ConfigFile.c; sourceTree = "<group>"; };
+		D0551159219C092C009A68BF /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		D055115A219C092C009A68BF /* 19配置文件解析封装.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "19配置文件解析封装.cpp"; sourceTree = "<group>"; };
+		D055115B219C092C009A68BF /* 11二维数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "11二维数组.cpp"; sourceTree = "<group>"; };
+		D055115C219C092C009A68BF /* 16结构体嵌套二级指针.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "16结构体嵌套二级指针.cpp"; sourceTree = "<group>"; };
+		D055115D219C092C009A68BF /* 17结构体偏移量.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "17结构体偏移量.cpp"; sourceTree = "<group>"; };
+		D055115E219C092C009A68BF /* MyDylib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MyDylib.c; sourceTree = "<group>"; };
+		D055115F219C092C009A68BF /* 22链表的基本概念.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "22链表的基本概念.cpp"; sourceTree = "<group>"; };
+		D0551160219C092C009A68BF /* 25排序算法.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "25排序算法.cpp"; sourceTree = "<group>"; };
+		D0551161219C092C009A68BF /* 07二级指针做函数参数_输入特性.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "07二级指针做函数参数_输入特性.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D03941E1218B047800347955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0551187219C0A1B009A68BF /* libMyDylib.dylib in Frameworks */,
+				D0551188219C0A1B009A68BF /* libMyLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0551110219BBBF8009A68BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0551122219BC2EF009A68BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,6 +113,7 @@
 			children = (
 				D03941E6218B047800347955 /* StudyC++ */,
 				D03941E5218B047800347955 /* Products */,
+				D055111B219BBE28009A68BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				D03941E4218B047800347955 /* StudyC++ */,
+				D0551112219BBBF8009A68BF /* libMyLib.a */,
+				D0551124219BC2EF009A68BF /* libMyDylib.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,51 +130,96 @@
 		D03941E6218B047800347955 /* StudyC++ */ = {
 			isa = PBXGroup;
 			children = (
-				D057D49221943ED800565B53 /* C基础 */,
+				D0551136219C092C009A68BF /* 1C基础 */,
+				D0551135219C08FF009A68BF /* 2数据结构 */,
 			);
 			path = "StudyC++";
 			sourceTree = "<group>";
 		};
-		D057D49221943ED800565B53 /* C基础 */ = {
+		D055111B219BBE28009A68BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D057D49321943ED800565B53 /* 09二级指针练习_文件读写.cpp */,
-				D057D49421943ED800565B53 /* 08查找子字符串.cpp */,
-				D057D49521943ED800565B53 /* 01main1.cpp */,
-				D057D49621943ED800565B53 /* 07二级指针做函数参数_输入特性.cpp */,
-				D057D49721943ED800565B53 /* test.txt */,
-				D057D49821943ED800565B53 /* 02格式化字符串.cpp */,
-				D057D49921943ED800565B53 /* 03calloc&realloc.cpp */,
-				D057D49A21943ED800565B53 /* 06二级指针做函数参数_输出特性.cpp */,
-				D057D49B21943ED800565B53 /* 04指针的步长.cpp */,
-				D057D49C21943ED800565B53 /* 05Const的使用.cpp */,
-				D205A93B2194926700DDB02B /* 10一维数组.cpp */,
-				D057D4A621952D0600565B53 /* 11二维数组.cpp */,
-				D057D4A82195461000565B53 /* 12指针数组排序_选择排序.cpp */,
-				D057D4AB2195574800565B53 /* 13结构体的基本概念.cpp */,
-				D057D4AD21957F2500565B53 /* 14结构体赋值.cpp */,
-				D05E959E2195902A00FA03B2 /* 15结构体嵌套一级指针.cpp */,
-				D205A93D2196CA2000DDB02B /* 16结构体嵌套二级指针.cpp */,
-				D249A7692197B8E000BC9089 /* 17结构体偏移量.cpp */,
-				D249A76B2197FAA800BC9089 /* 18文件操作复习.cpp */,
-				D249A76D2197FADF00BC9089 /* 18text.txt */,
-				D249A76E2198013200BC9089 /* ConfigFile.h */,
-				D249A76F219804B200BC9089 /* ConfigFile.c */,
-				D0628EF6219948F700E60EC3 /* 19config.ini */,
-				D0628EF9219963A000E60EC3 /* 19配置文件解析封装.cpp */,
-				D0628EF72199635400E60EC3 /* 20函数指针.cpp */,
-				D0628EFC2199769C00E60EC3 /* 21函数指针做函数参数.cpp */,
-				D249A7712199C01600BC9089 /* 22链表的基本概念.cpp */,
-				D249A7732199C02800BC9089 /* 23静态链表.cpp */,
-				D0CD2C6F219A6C6C0003528D /* LinkList.h */,
-				D0CD2C70219A6C6C0003528D /* LinkList.c */,
-				D0CD2C72219A77D70003528D /* 24链表的初始化及增删改查.cpp */,
-				D06983CD219ACCAE0057256E /* 25排序算法.cpp */,
 			);
-			path = "C基础";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0551135219C08FF009A68BF /* 2数据结构 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2数据结构";
+			sourceTree = "<group>";
+		};
+		D0551136219C092C009A68BF /* 1C基础 */ = {
+			isa = PBXGroup;
+			children = (
+				D0551137219C092C009A68BF /* 18文件操作复习.cpp */,
+				D0551138219C092C009A68BF /* 18text.txt */,
+				D0551139219C092C009A68BF /* MyLib.h */,
+				D055113A219C092C009A68BF /* 21函数指针做函数参数.cpp */,
+				D055113B219C092C009A68BF /* LinkList.c */,
+				D055113C219C092C009A68BF /* 02 strcpy、strncpy与memcpy的区别与使用方法.h */,
+				D055113D219C092C009A68BF /* 01main1.cpp */,
+				D055113E219C092C009A68BF /* 05Const的使用.cpp */,
+				D055113F219C092C009A68BF /* CSocketImp1.c */,
+				D0551140219C092C009A68BF /* MyDylib.h */,
+				D0551141219C092C009A68BF /* 23静态链表.cpp */,
+				D0551142219C092C009A68BF /* 08查找子字符串.cpp */,
+				D0551143219C092C009A68BF /* 14结构体赋值.cpp */,
+				D0551144219C092C009A68BF /* 19config.ini */,
+				D0551145219C092C009A68BF /* 13结构体的基本概念.cpp */,
+				D0551146219C092C009A68BF /* ConfigFile.h */,
+				D0551147219C092C009A68BF /* 26静态库使用.cpp */,
+				D0551148219C092C009A68BF /* 10一维数组.cpp */,
+				D0551149219C092C009A68BF /* 12指针数组排序_选择排序.cpp */,
+				D055114A219C092C009A68BF /* 04指针的步长.cpp */,
+				D055114B219C092C009A68BF /* 09二级指针练习_文件读写.cpp */,
+				D055114C219C092C009A68BF /* MyLib.c */,
+				D055114D219C092C009A68BF /* 27递归函数实现字符串反转.cpp */,
+				D055114E219C092C009A68BF /* 28面向接口编程.cpp */,
+				D055114F219C092C009A68BF /* 15结构体嵌套一级指针.cpp */,
+				D0551150219C092C009A68BF /* 24链表的初始化及增删改查.cpp */,
+				D0551151219C092C009A68BF /* 02格式化字符串.cpp */,
+				D0551152219C092C009A68BF /* 06二级指针做函数参数_输出特性.cpp */,
+				D0551153219C092C009A68BF /* CSocketImp1.h */,
+				D0551154219C092C009A68BF /* 26动态库使用.cpp */,
+				D0551155219C092C009A68BF /* 20函数指针.cpp */,
+				D0551156219C092C009A68BF /* LinkList.h */,
+				D0551157219C092C009A68BF /* 03calloc&realloc.cpp */,
+				D0551158219C092C009A68BF /* ConfigFile.c */,
+				D0551159219C092C009A68BF /* test.txt */,
+				D055115A219C092C009A68BF /* 19配置文件解析封装.cpp */,
+				D055115B219C092C009A68BF /* 11二维数组.cpp */,
+				D055115C219C092C009A68BF /* 16结构体嵌套二级指针.cpp */,
+				D055115D219C092C009A68BF /* 17结构体偏移量.cpp */,
+				D055115E219C092C009A68BF /* MyDylib.c */,
+				D055115F219C092C009A68BF /* 22链表的基本概念.cpp */,
+				D0551160219C092C009A68BF /* 25排序算法.cpp */,
+				D0551161219C092C009A68BF /* 07二级指针做函数参数_输入特性.cpp */,
+			);
+			path = "1C基础";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D055110E219BBBF8009A68BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D055118A219C0A50009A68BF /* MyLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0551120219BC2EF009A68BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0551185219C09EE009A68BF /* MyDylib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		D03941E3218B047800347955 /* StudyC++ */ = {
@@ -155,6 +239,40 @@
 			productReference = D03941E4218B047800347955 /* StudyC++ */;
 			productType = "com.apple.product-type.tool";
 		};
+		D0551111219BBBF8009A68BF /* MyLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0551113219BBBF8009A68BF /* Build configuration list for PBXNativeTarget "MyLib" */;
+			buildPhases = (
+				D055110E219BBBF8009A68BF /* Headers */,
+				D055110F219BBBF8009A68BF /* Sources */,
+				D0551110219BBBF8009A68BF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLib;
+			productName = MyLib;
+			productReference = D0551112219BBBF8009A68BF /* libMyLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D0551123219BC2EF009A68BF /* MyDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0551125219BC2EF009A68BF /* Build configuration list for PBXNativeTarget "MyDylib" */;
+			buildPhases = (
+				D0551120219BC2EF009A68BF /* Headers */,
+				D0551121219BC2EF009A68BF /* Sources */,
+				D0551122219BC2EF009A68BF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDylib;
+			productName = MyDylib;
+			productReference = D0551124219BC2EF009A68BF /* libMyDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +283,12 @@
 				ORGANIZATIONNAME = xiaoyuan;
 				TargetAttributes = {
 					D03941E3218B047800347955 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D0551111219BBBF8009A68BF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D0551123219BC2EF009A68BF = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -182,6 +306,8 @@
 			projectRoot = "";
 			targets = (
 				D03941E3218B047800347955 /* StudyC++ */,
+				D0551111219BBBF8009A68BF /* MyLib */,
+				D0551123219BC2EF009A68BF /* MyDylib */,
 			);
 		};
 /* End PBXProject section */
@@ -191,10 +317,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D06983CE219ACCAE0057256E /* 25排序算法.cpp in Sources */,
-				D249A7722199C01600BC9089 /* 22链表的基本概念.cpp in Sources */,
-				D0CD2C71219A6C6C0003528D /* LinkList.c in Sources */,
-				D0628EFB2199642700E60EC3 /* ConfigFile.c in Sources */,
+				D055117B219C092C009A68BF /* ConfigFile.c in Sources */,
+				D0551164219C092C009A68BF /* LinkList.c in Sources */,
+				D055118C219C0A96009A68BF /* CSocketImp1.c in Sources */,
+				D0551180219C092C009A68BF /* MyDylib.c in Sources */,
+				D0551184219C09C7009A68BF /* 28面向接口编程.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D055110F219BBBF8009A68BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0551189219C0A43009A68BF /* MyLib.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0551121219BC2EF009A68BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D055118B219C0A7B009A68BF /* MyDylib.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +473,54 @@
 			};
 			name = Release;
 		};
+		D0551114219BBBF8009A68BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKW67GFDHM;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D0551115219BBBF8009A68BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKW67GFDHM;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D0551126219BC2EF009A68BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKW67GFDHM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D0551127219BC2EF009A68BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKW67GFDHM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -347,6 +538,24 @@
 			buildConfigurations = (
 				D03941EC218B047800347955 /* Debug */,
 				D03941ED218B047800347955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0551113219BBBF8009A68BF /* Build configuration list for PBXNativeTarget "MyLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0551114219BBBF8009A68BF /* Debug */,
+				D0551115219BBBF8009A68BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0551125219BC2EF009A68BF /* Build configuration list for PBXNativeTarget "MyDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0551126219BC2EF009A68BF /* Debug */,
+				D0551127219BC2EF009A68BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
