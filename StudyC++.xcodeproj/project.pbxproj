@@ -10,7 +10,6 @@
 		D0551164219C092C009A68BF /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = D055113B219C092C009A68BF /* LinkList.c */; };
 		D055117B219C092C009A68BF /* ConfigFile.c in Sources */ = {isa = PBXBuildFile; fileRef = D0551158219C092C009A68BF /* ConfigFile.c */; };
 		D0551180219C092C009A68BF /* MyDylib.c in Sources */ = {isa = PBXBuildFile; fileRef = D055115E219C092C009A68BF /* MyDylib.c */; };
-		D0551184219C09C7009A68BF /* 28面向接口编程.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D055114E219C092C009A68BF /* 28面向接口编程.cpp */; };
 		D0551185219C09EE009A68BF /* MyDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = D0551140219C092C009A68BF /* MyDylib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0551187219C0A1B009A68BF /* libMyDylib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D0551124219BC2EF009A68BF /* libMyDylib.dylib */; };
 		D0551188219C0A1B009A68BF /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0551112219BBBF8009A68BF /* libMyLib.a */; };
@@ -18,6 +17,8 @@
 		D055118A219C0A50009A68BF /* MyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = D0551139219C092C009A68BF /* MyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D055118B219C0A7B009A68BF /* MyDylib.c in Sources */ = {isa = PBXBuildFile; fileRef = D055115E219C092C009A68BF /* MyDylib.c */; };
 		D055118C219C0A96009A68BF /* CSocketImp1.c in Sources */ = {isa = PBXBuildFile; fileRef = D055113F219C092C009A68BF /* CSocketImp1.c */; };
+		D0551192219C1A3D009A68BF /* DynamicArray.c in Sources */ = {isa = PBXBuildFile; fileRef = D0551191219C1A3D009A68BF /* DynamicArray.c */; };
+		D05511A7219C286B009A68BF /* 01动态数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D05511A6219C286B009A68BF /* 01动态数组.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +80,9 @@
 		D055115F219C092C009A68BF /* 22链表的基本概念.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "22链表的基本概念.cpp"; sourceTree = "<group>"; };
 		D0551160219C092C009A68BF /* 25排序算法.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "25排序算法.cpp"; sourceTree = "<group>"; };
 		D0551161219C092C009A68BF /* 07二级指针做函数参数_输入特性.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "07二级指针做函数参数_输入特性.cpp"; sourceTree = "<group>"; };
+		D0551190219C1A3D009A68BF /* DynamicArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicArray.h; sourceTree = "<group>"; };
+		D0551191219C1A3D009A68BF /* DynamicArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DynamicArray.c; sourceTree = "<group>"; };
+		D05511A6219C286B009A68BF /* 01动态数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01动态数组.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +134,8 @@
 		D03941E6218B047800347955 /* StudyC++ */ = {
 			isa = PBXGroup;
 			children = (
+				D055118E219C1A0A009A68BF /* 2数据结构 */,
 				D0551136219C092C009A68BF /* 1C基础 */,
-				D0551135219C08FF009A68BF /* 2数据结构 */,
 			);
 			path = "StudyC++";
 			sourceTree = "<group>";
@@ -141,13 +145,6 @@
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D0551135219C08FF009A68BF /* 2数据结构 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "2数据结构";
 			sourceTree = "<group>";
 		};
 		D0551136219C092C009A68BF /* 1C基础 */ = {
@@ -198,6 +195,24 @@
 				D0551161219C092C009A68BF /* 07二级指针做函数参数_输入特性.cpp */,
 			);
 			path = "1C基础";
+			sourceTree = "<group>";
+		};
+		D055118E219C1A0A009A68BF /* 2数据结构 */ = {
+			isa = PBXGroup;
+			children = (
+				D055118F219C1A11009A68BF /* 01动态数组的实现 */,
+			);
+			path = "2数据结构";
+			sourceTree = "<group>";
+		};
+		D055118F219C1A11009A68BF /* 01动态数组的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				D0551190219C1A3D009A68BF /* DynamicArray.h */,
+				D0551191219C1A3D009A68BF /* DynamicArray.c */,
+				D05511A6219C286B009A68BF /* 01动态数组.cpp */,
+			);
+			name = "01动态数组的实现";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,10 +333,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D055117B219C092C009A68BF /* ConfigFile.c in Sources */,
+				D05511A7219C286B009A68BF /* 01动态数组.cpp in Sources */,
+				D0551192219C1A3D009A68BF /* DynamicArray.c in Sources */,
 				D0551164219C092C009A68BF /* LinkList.c in Sources */,
 				D055118C219C0A96009A68BF /* CSocketImp1.c in Sources */,
 				D0551180219C092C009A68BF /* MyDylib.c in Sources */,
-				D0551184219C09C7009A68BF /* 28面向接口编程.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
