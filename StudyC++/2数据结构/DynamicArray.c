@@ -11,9 +11,20 @@
 #include <string.h>
 #include <stdlib.h>
 
+
+/// 定义数据结构
+struct DynamicArray{
+    // 数据存储元素空间的首地址
+    void **addr;
+    // 数据存储的内存空间最大能容纳多少元素
+    int capacity;
+    // 当前存储的内存中有多少元素
+    int size;
+};
+
 /// 初始化数组
 /// @param capacity 初始化数组的元素数量
-struct DynamicArray *Init_DynamicArray(int capacity) {
+void *Init_DynamicArray(int capacity) {
     if (capacity <= 0) {
         return NULL;
     }
@@ -32,13 +43,14 @@ struct DynamicArray *Init_DynamicArray(int capacity) {
 /// @param arr 插入的数组
 /// @param pos 插入数组的位置
 /// @param data 插入的数据的内存地址
-void Insert_DynamicArray(struct DynamicArray *arr, int pos, void *data) {
-    if (NULL == arr) {
+void Insert_DynamicArray(void *array, int pos, void *data) {
+    if (NULL == array) {
         return;
     }
     if (NULL == data) {
         return;
     }
+    struct DynamicArray *arr = (struct DynamicArray *)array;
     if (pos < 0 || pos > arr->size) {
         // 需要插入的位置小于0或者超出当前数组的size，就 插入到数组末尾
         pos = arr->size;
@@ -74,26 +86,27 @@ void Insert_DynamicArray(struct DynamicArray *arr, int pos, void *data) {
 }
 
 /// 遍历数组
-/// @param arr 遍历的数组
+/// @param array 遍历的数组
 /// @param callback 遍历的回调
-void Foreach_DynamicArray(struct DynamicArray *arr, void (*callback)(void *, int)) {
-    if (NULL == arr) {
+void Foreach_DynamicArray(void *array, void (*callback)(void *, int)) {
+    if (NULL == array) {
         return;
     }
     if (NULL == callback) {
         return;
     }
-    
+    struct DynamicArray *arr = (struct DynamicArray *)array;
     for (int i = 0; i < arr->size; ++i) {
         callback(arr->addr[i], i);
     }
 }
 
 /// 删除数组中某个位置的元素
-void RemoveByPos_DynamicArray(struct DynamicArray *arr, int pos) {
-    if (NULL == arr) {
+void RemoveByPos_DynamicArray(void *array, int pos) {
+    if (NULL == array) {
         return;
     }
+    struct DynamicArray *arr = (struct DynamicArray *)array;
     if (pos < 0 || pos > arr->size - 1) {
         return;
     }
@@ -106,8 +119,8 @@ void RemoveByPos_DynamicArray(struct DynamicArray *arr, int pos) {
 }
 
 /// 按值删除
-void RemoveByValue_DynamicArray(struct DynamicArray *arr, void *value, int (*compare)(void *, void *)) {
-    if (NULL == arr) {
+void RemoveByValue_DynamicArray(void *array, void *value, int (*compare)(void *, void *)) {
+    if (NULL == array) {
         return;
     }
     if (NULL == value) {
@@ -116,7 +129,7 @@ void RemoveByValue_DynamicArray(struct DynamicArray *arr, void *value, int (*com
     if (NULL == compare) {
         return;
     }
-    
+    struct DynamicArray *arr = (struct DynamicArray *)array;
     for (int i = 0; i < arr->size; ++i) {
         
         if (compare(arr->addr[i], value)) {
@@ -127,14 +140,35 @@ void RemoveByValue_DynamicArray(struct DynamicArray *arr, void *value, int (*com
 }
 
 /// 销毁数组
-void Destroy_DynamicArray(struct DynamicArray *arr) {
-    if (NULL == arr) {
+void Destroy_DynamicArray(void *array) {
+    if (NULL == array) {
         return;
     }
+    struct DynamicArray *arr = (struct DynamicArray *)array;
     if (arr->addr != NULL) {
         free(arr->addr);
         arr->addr = NULL;
     }
     free(arr);
     arr = NULL;
+}
+
+/// 获取数组中元素的个数
+int GetCount_DynamicArray(void *arr) {
+    if (NULL == arr) {
+        return 0;
+    }
+    
+    struct DynamicArray *array = (struct DynamicArray *)arr;
+    return array->size;
+}
+
+/// 获取数组的容量
+int GetCapacity_DynamicArray(void *arr) {
+    if (NULL == arr) {
+        return 0;
+    }
+    
+    struct DynamicArray *array = (struct DynamicArray *)arr;
+    return array->capacity;
 }

@@ -12,39 +12,38 @@
 extern "C"{
 #endif
     
-    /// 定义数据结构
-    struct DynamicArray{
-        // 数据存储元素空间的首地址
-        void **addr;
-        // 数据存储的内存空间最大能容纳多少元素
-        int capacity;
-        // 当前存储的内存中有多少元素
-        int size;
-    };
-    
     /// 初始化数组
     /// @param capacity 初始化数组的元素数量
-    struct DynamicArray *Init_DynamicArray(int capacity);
+    void *Init_DynamicArray(int capacity);
     
     /// 插入元素
     /// @param arr 插入的数组
     /// @param pos 插入数组的位置
     /// @param data 插入的数据的内存地址
-    void Insert_DynamicArray(struct DynamicArray *arr, int pos, void *data);
+    void Insert_DynamicArray(void *arr, int pos, void *data);
     
     /// 遍历数组
     /// @param arr 遍历的数组
     /// @param callback 遍历的回调
-    void Foreach_DynamicArray(struct DynamicArray *arr, void (*callback)(void *, int));
+    void Foreach_DynamicArray(void *arr, void (*callback)(void *, int));
     
     /// 删除数组中某个位置的元素
-    void RemoveByPos_DynamicArray(struct DynamicArray *arr, int pos);
+    void RemoveByPos_DynamicArray(void *arr, int pos);
     
     /// 按值删除
-    void RemoveByValue_DynamicArray(struct DynamicArray *arr, void *value, int (*compare)(void *, void *));
+    /// @param arr 操作的数组
+    /// @param value 需要删除的数据内存地址指针变量
+    /// @param compare 需要用户去确定当前元素是否与要删除的数据是否相同，compare如果返回1则相同，此元素会被删除
+    void RemoveByValue_DynamicArray(void *arr, void *value, int (*compare)(void *, void *));
     
     /// 销毁数组
-    void Destroy_DynamicArray(struct DynamicArray *arr);
+    void Destroy_DynamicArray(void *arr);
+    
+    /// 获取数组中元素的个数
+    int GetCount_DynamicArray(void *arr);
+    
+    /// 获取数组的容量
+    int GetCapacity_DynamicArray(void *arr);
     
 #ifdef __cplusplus
 }

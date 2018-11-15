@@ -32,7 +32,7 @@ int myCompare(void *v1, void *v2)
 void test()
 {
     // 创建动态数组
-    struct DynamicArray *array = Init_DynamicArray(20);
+    void *array = Init_DynamicArray(20);
     // 为动态数组添加元素
     struct Person p = {"xiaoyuan", 18};
     struct Person p1 = {"xiaoyuan1", 19};
@@ -50,22 +50,22 @@ void test()
     struct Person p5 = {"xiaoyuan5", 23};
     Insert_DynamicArray(array, 1, &p5);
     Foreach_DynamicArray(array, myPrint);
-    printf("capacity: %d\n", array->capacity);
-    printf("size: %d\n", array->size);
+    printf("capacity: %d\n", GetCapacity_DynamicArray(array));
+    printf("size: %d\n", GetCount_DynamicArray(array));
     
     // 移除第二个元素
     RemoveByPos_DynamicArray(array, 2);
     Foreach_DynamicArray(array, myPrint);
-    printf("capacity: %d\n", array->capacity);
-    printf("size: %d\n", array->size);
+    printf("capacity: %d\n", GetCapacity_DynamicArray(array));
+    printf("size: %d\n", GetCount_DynamicArray(array));
     
     // 移除元素
     struct Person remove = {"xiaoyuan", 18};
     // 移除名字为xiaoyuan，年龄18岁的人
     RemoveByValue_DynamicArray(array, &remove, myCompare);
     Foreach_DynamicArray(array, myPrint);
-    printf("capacity: %d\n", array->capacity);
-    printf("size: %d\n", array->size);
+    printf("capacity: %d\n", GetCapacity_DynamicArray(array));
+    printf("size: %d\n", GetCount_DynamicArray(array));
     
     // 销毁
     Destroy_DynamicArray(array);
