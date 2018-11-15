@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0551164219C092C009A68BF /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = D055113B219C092C009A68BF /* LinkList.c */; };
 		D055117B219C092C009A68BF /* ConfigFile.c in Sources */ = {isa = PBXBuildFile; fileRef = D0551158219C092C009A68BF /* ConfigFile.c */; };
 		D0551180219C092C009A68BF /* MyDylib.c in Sources */ = {isa = PBXBuildFile; fileRef = D055115E219C092C009A68BF /* MyDylib.c */; };
 		D0551185219C09EE009A68BF /* MyDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = D0551140219C092C009A68BF /* MyDylib.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -18,7 +17,9 @@
 		D055118B219C0A7B009A68BF /* MyDylib.c in Sources */ = {isa = PBXBuildFile; fileRef = D055115E219C092C009A68BF /* MyDylib.c */; };
 		D055118C219C0A96009A68BF /* CSocketImp1.c in Sources */ = {isa = PBXBuildFile; fileRef = D055113F219C092C009A68BF /* CSocketImp1.c */; };
 		D0551192219C1A3D009A68BF /* DynamicArray.c in Sources */ = {isa = PBXBuildFile; fileRef = D0551191219C1A3D009A68BF /* DynamicArray.c */; };
-		D05511A7219C286B009A68BF /* 01动态数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D05511A6219C286B009A68BF /* 01动态数组.cpp */; };
+		D0EE30D6219D358200C4C1CE /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = D0EE30D5219D358200C4C1CE /* LinkList.c */; };
+		D0EE30D7219D3D5500C4C1CE /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = D055113B219C092C009A68BF /* LinkList.c */; };
+		D0EE30F7219D64DB00C4C1CE /* 03单向链表（版本二）思路.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0EE30F6219D64DB00C4C1CE /* 03单向链表（版本二）思路.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +84,10 @@
 		D0551190219C1A3D009A68BF /* DynamicArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicArray.h; sourceTree = "<group>"; };
 		D0551191219C1A3D009A68BF /* DynamicArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DynamicArray.c; sourceTree = "<group>"; };
 		D05511A6219C286B009A68BF /* 01动态数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01动态数组.cpp"; sourceTree = "<group>"; };
+		D0EE30D4219D358200C4C1CE /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
+		D0EE30D5219D358200C4C1CE /* LinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkList.c; sourceTree = "<group>"; };
+		D0EE30D8219D477600C4C1CE /* 02单向链表（版本一）.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02单向链表（版本一）.cpp"; sourceTree = "<group>"; };
+		D0EE30F6219D64DB00C4C1CE /* 03单向链表（版本二）思路.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03单向链表（版本二）思路.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +205,8 @@
 		D055118E219C1A0A009A68BF /* 2数据结构 */ = {
 			isa = PBXGroup;
 			children = (
+				D0EE30F5219D64AD00C4C1CE /* 03单向链表（版本二）思路 */,
+				D0EE30D3219D352200C4C1CE /* 02单向链表（版本一） */,
 				D055118F219C1A11009A68BF /* 01动态数组的实现 */,
 			);
 			path = "2数据结构";
@@ -213,6 +220,24 @@
 				D05511A6219C286B009A68BF /* 01动态数组.cpp */,
 			);
 			name = "01动态数组的实现";
+			sourceTree = "<group>";
+		};
+		D0EE30D3219D352200C4C1CE /* 02单向链表（版本一） */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE30D4219D358200C4C1CE /* LinkList.h */,
+				D0EE30D5219D358200C4C1CE /* LinkList.c */,
+				D0EE30D8219D477600C4C1CE /* 02单向链表（版本一）.cpp */,
+			);
+			name = "02单向链表（版本一）";
+			sourceTree = "<group>";
+		};
+		D0EE30F5219D64AD00C4C1CE /* 03单向链表（版本二）思路 */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE30F6219D64DB00C4C1CE /* 03单向链表（版本二）思路.cpp */,
+			);
+			name = "03单向链表（版本二）思路";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,10 +358,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D055117B219C092C009A68BF /* ConfigFile.c in Sources */,
-				D05511A7219C286B009A68BF /* 01动态数组.cpp in Sources */,
 				D0551192219C1A3D009A68BF /* DynamicArray.c in Sources */,
-				D0551164219C092C009A68BF /* LinkList.c in Sources */,
+				D0EE30D7219D3D5500C4C1CE /* LinkList.c in Sources */,
+				D0EE30D6219D358200C4C1CE /* LinkList.c in Sources */,
 				D055118C219C0A96009A68BF /* CSocketImp1.c in Sources */,
+				D0EE30F7219D64DB00C4C1CE /* 03单向链表（版本二）思路.cpp in Sources */,
 				D0551180219C092C009A68BF /* MyDylib.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,7 +13,7 @@
 
 
 /// 定义数据结构
-struct DynamicArray{
+struct CDynamicArray{
     // 数据存储元素空间的首地址
     void **addr;
     // 数据存储的内存空间最大能容纳多少元素
@@ -29,7 +29,7 @@ void *Init_DynamicArray(int capacity) {
         return NULL;
     }
     
-    struct DynamicArray *array = (struct DynamicArray *)malloc(sizeof(struct DynamicArray));
+    struct CDynamicArray *array = (struct CDynamicArray *)malloc(sizeof(struct CDynamicArray));
     if (NULL == array) {
         return NULL;
     }
@@ -50,7 +50,7 @@ void Insert_DynamicArray(void *array, int pos, void *data) {
     if (NULL == data) {
         return;
     }
-    struct DynamicArray *arr = (struct DynamicArray *)array;
+    struct CDynamicArray *arr = (struct CDynamicArray *)array;
     if (pos < 0 || pos > arr->size) {
         // 需要插入的位置小于0或者超出当前数组的size，就 插入到数组末尾
         pos = arr->size;
@@ -95,7 +95,7 @@ void Foreach_DynamicArray(void *array, void (*callback)(void *, int)) {
     if (NULL == callback) {
         return;
     }
-    struct DynamicArray *arr = (struct DynamicArray *)array;
+    struct CDynamicArray *arr = (struct CDynamicArray *)array;
     for (int i = 0; i < arr->size; ++i) {
         callback(arr->addr[i], i);
     }
@@ -106,7 +106,7 @@ void RemoveByPos_DynamicArray(void *array, int pos) {
     if (NULL == array) {
         return;
     }
-    struct DynamicArray *arr = (struct DynamicArray *)array;
+    struct CDynamicArray *arr = (struct CDynamicArray *)array;
     if (pos < 0 || pos > arr->size - 1) {
         return;
     }
@@ -129,7 +129,7 @@ void RemoveByValue_DynamicArray(void *array, void *value, int (*compare)(void *,
     if (NULL == compare) {
         return;
     }
-    struct DynamicArray *arr = (struct DynamicArray *)array;
+    struct CDynamicArray *arr = (struct CDynamicArray *)array;
     for (int i = 0; i < arr->size; ++i) {
         
         if (compare(arr->addr[i], value)) {
@@ -144,7 +144,7 @@ void Destroy_DynamicArray(void *array) {
     if (NULL == array) {
         return;
     }
-    struct DynamicArray *arr = (struct DynamicArray *)array;
+    struct CDynamicArray *arr = (struct CDynamicArray *)array;
     if (arr->addr != NULL) {
         free(arr->addr);
         arr->addr = NULL;
@@ -159,7 +159,7 @@ int GetCount_DynamicArray(void *arr) {
         return 0;
     }
     
-    struct DynamicArray *array = (struct DynamicArray *)arr;
+    struct CDynamicArray *array = (struct CDynamicArray *)arr;
     return array->size;
 }
 
@@ -169,6 +169,6 @@ int GetCapacity_DynamicArray(void *arr) {
         return 0;
     }
     
-    struct DynamicArray *array = (struct DynamicArray *)arr;
+    struct CDynamicArray *array = (struct CDynamicArray *)arr;
     return array->capacity;
 }

@@ -12,6 +12,8 @@
 extern "C"{
 #endif
     
+    typedef void ** DynamicArray;
+    
     /// 初始化数组
     /// @param capacity 初始化数组的元素数量
     void *Init_DynamicArray(int capacity);
