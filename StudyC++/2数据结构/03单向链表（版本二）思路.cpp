@@ -16,6 +16,8 @@ struct LinkNode{
 };
 
 struct Person {
+    // 预留，用于操作链表
+    // node的首地址也是Person的首地址
     struct LinkNode node;
     char name[64];
     int age;
