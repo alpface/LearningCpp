@@ -21,7 +21,7 @@
 		D0EE30D7219D3D5500C4C1CE /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = D055113B219C092C009A68BF /* LinkList.c */; };
 		D0EE3100219E8A5000C4C1CE /* SeqStack.c in Sources */ = {isa = PBXBuildFile; fileRef = D0EE30FF219E8A5000C4C1CE /* SeqStack.c */; };
 		D0EE3106219E98EE00C4C1CE /* LinkStack.c in Sources */ = {isa = PBXBuildFile; fileRef = D0EE3105219E98EE00C4C1CE /* LinkStack.c */; };
-		D0EE3108219E9F4F00C4C1CE /* 06栈的链式存储.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0EE3107219E9F4F00C4C1CE /* 06栈的链式存储.cpp */; };
+		D0EE310C219EA92D00C4C1CE /* 07栈的应用-就近匹配.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0EE310A219EA92D00C4C1CE /* 07栈的应用-就近匹配.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,6 +96,7 @@
 		D0EE3104219E98EE00C4C1CE /* LinkStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkStack.h; sourceTree = "<group>"; };
 		D0EE3105219E98EE00C4C1CE /* LinkStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkStack.c; sourceTree = "<group>"; };
 		D0EE3107219E9F4F00C4C1CE /* 06栈的链式存储.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "06栈的链式存储.cpp"; sourceTree = "<group>"; };
+		D0EE310A219EA92D00C4C1CE /* 07栈的应用-就近匹配.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "07栈的应用-就近匹配.cpp"; sourceTree = "<group>"; };
 		D249A775219DBDB700BC9089 /* 浅谈单链表与双链表的区别.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "浅谈单链表与双链表的区别.md"; sourceTree = "<group>"; };
 		D249A779219DBECD00BC9089 /* 链式存储结构.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "链式存储结构.md"; sourceTree = "<group>"; };
 		D249A77B219DC64300BC9089 /* 04单向链表（版本二）.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "04单向链表（版本二）.cpp"; sourceTree = "<group>"; };
@@ -260,6 +261,7 @@
 		D0EE30FC219E6AAF00C4C1CE /* 01线性结构 */ = {
 			isa = PBXGroup;
 			children = (
+				D0EE3109219EA90100C4C1CE /* 07栈的应用 */,
 				D0EE3103219E983700C4C1CE /* 06栈的链式存储 */,
 				D0EE30FD219E883A00C4C1CE /* 05栈的顺序存储 */,
 				D249A775219DBDB700BC9089 /* 浅谈单链表与双链表的区别.md */,
@@ -290,6 +292,14 @@
 				D0EE3107219E9F4F00C4C1CE /* 06栈的链式存储.cpp */,
 			);
 			name = "06栈的链式存储";
+			sourceTree = "<group>";
+		};
+		D0EE3109219EA90100C4C1CE /* 07栈的应用 */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE310A219EA92D00C4C1CE /* 07栈的应用-就近匹配.cpp */,
+			);
+			name = "07栈的应用";
 			sourceTree = "<group>";
 		};
 		D249A77A219DC62100BC9089 /* 04单向链表（版本二） */ = {
@@ -417,8 +427,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0EE3108219E9F4F00C4C1CE /* 06栈的链式存储.cpp in Sources */,
 				D055117B219C092C009A68BF /* ConfigFile.c in Sources */,
+				D0EE310C219EA92D00C4C1CE /* 07栈的应用-就近匹配.cpp in Sources */,
 				D0EE3100219E8A5000C4C1CE /* SeqStack.c in Sources */,
 				D0551192219C1A3D009A68BF /* DynamicArray.c in Sources */,
 				D0EE30D7219D3D5500C4C1CE /* LinkList.c in Sources */,
