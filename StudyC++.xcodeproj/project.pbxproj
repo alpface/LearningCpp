@@ -208,12 +208,8 @@
 		D055118E219C1A0A009A68BF /* 2数据结构 */ = {
 			isa = PBXGroup;
 			children = (
-				D249A77A219DC62100BC9089 /* 04单向链表（版本二） */,
-				D0EE30F5219D64AD00C4C1CE /* 03单向链表（版本二）思路 */,
-				D0EE30D3219D352200C4C1CE /* 02单向链表（版本一） */,
-				D055118F219C1A11009A68BF /* 01动态数组的实现 */,
-				D249A775219DBDB700BC9089 /* 浅谈单链表与双链表的区别.md */,
-				D249A779219DBECD00BC9089 /* 链式存储结构.md */,
+				D0EE30FC219E6AAF00C4C1CE /* 01线性结构 */,
+				D0EE30FB219E6A6900C4C1CE /* 02树形结构(非常重要) */,
 			);
 			path = "2数据结构";
 			sourceTree = "<group>";
@@ -244,6 +240,26 @@
 				D0EE30F6219D64DB00C4C1CE /* 03单向链表（版本二）思路.cpp */,
 			);
 			name = "03单向链表（版本二）思路";
+			sourceTree = "<group>";
+		};
+		D0EE30FB219E6A6900C4C1CE /* 02树形结构(非常重要) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "02树形结构(非常重要)";
+			sourceTree = "<group>";
+		};
+		D0EE30FC219E6AAF00C4C1CE /* 01线性结构 */ = {
+			isa = PBXGroup;
+			children = (
+				D249A775219DBDB700BC9089 /* 浅谈单链表与双链表的区别.md */,
+				D249A779219DBECD00BC9089 /* 链式存储结构.md */,
+				D249A77A219DC62100BC9089 /* 04单向链表（版本二） */,
+				D0EE30F5219D64AD00C4C1CE /* 03单向链表（版本二）思路 */,
+				D0EE30D3219D352200C4C1CE /* 02单向链表（版本一） */,
+				D055118F219C1A11009A68BF /* 01动态数组的实现 */,
+			);
+			name = "01线性结构";
 			sourceTree = "<group>";
 		};
 		D249A77A219DC62100BC9089 /* 04单向链表（版本二） */ = {
