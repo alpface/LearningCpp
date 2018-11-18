@@ -65,7 +65,100 @@ struct BiNode {
     struct BiNode *rightChild; // 右子树
 };
 
+// 递归遍历的类型：前序遍历、中序遍历、后序遍历
+enum RecursionOption {
+    RecursionOptionBefore,   // 前序遍历
+    RecursionOptionMiddle,   // 中序遍历
+    RecursionOptionRear,     // 后序遍历
+};
+
+// 二叉树递归遍历
+void recursion(struct BiNode *root, RecursionOption option, void (*myForeach)(void *data))
+{
+    if (NULL == root) {
+        return;
+    }
+    if (NULL == myForeach) {
+        return;
+    }
+    
+    switch (option) {
+        case RecursionOptionBefore:
+            myForeach(&(root->ch));
+            // 递归遍历左子树
+            recursion(root->leftChild, option, myForeach);
+            // 递归遍历右子树
+            recursion(root->rightChild, option, myForeach);
+            break;
+        case RecursionOptionMiddle:
+            // 递归遍历左子树
+            recursion(root->leftChild, option, myForeach);
+            myForeach(&(root->ch));
+            // 递归遍历右子树
+            recursion(root->rightChild, option, myForeach);
+            break;
+        case RecursionOptionRear:
+            // 递归遍历左子树
+            recursion(root->leftChild, option, myForeach);
+            // 递归遍历右子树
+            recursion(root->rightChild, option, myForeach);
+            myForeach(&(root->ch));
+            break;
+            
+        default:
+            break;
+    }
+    
+}
+
+void myPrint(void *data)
+{
+    char *str = (char *)data;
+    printf("%s", str);
+}
+
+void test()
+{
+    // 创建树的节点数据
+    struct BiNode a = {'A', NULL, NULL};
+    struct BiNode b = {'B', NULL, NULL};
+    struct BiNode c = {'C', NULL, NULL};
+    struct BiNode d = {'D', NULL, NULL};
+    struct BiNode e = {'E', NULL, NULL};
+    struct BiNode f = {'F', NULL, NULL};
+    struct BiNode g = {'G', NULL, NULL};
+    struct BiNode h = {'H', NULL, NULL};
+    
+    a.leftChild = &b;
+    a.rightChild = &f;
+    
+    b.rightChild = &c;
+    
+    c.leftChild = &d;
+    c.rightChild = &e;
+    
+    f.rightChild = &g;
+    
+    g.leftChild = &h;
+    
+    // 前序遍历
+    printf("二叉树前序遍历:\n");
+    recursion(&a, RecursionOptionBefore, myPrint);
+    printf("\n");
+    
+    // 中序遍历
+    printf("二叉树中序遍历:\n");
+    recursion(&a, RecursionOptionMiddle, myPrint);
+    printf("\n");
+    
+    // 后序遍历
+    printf("二叉树后序遍历:\n");
+    recursion(&a, RecursionOptionRear, myPrint);
+    printf("\n");
+}
+
 int main(int argc, const char *argv[])
 {
+    test();
     return EXIT_SUCCESS;
 }

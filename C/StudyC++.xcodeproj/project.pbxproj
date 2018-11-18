@@ -22,7 +22,7 @@
 		D0EE3100219E8A5000C4C1CE /* SeqStack.c in Sources */ = {isa = PBXBuildFile; fileRef = D0EE30FF219E8A5000C4C1CE /* SeqStack.c */; };
 		D0EE3106219E98EE00C4C1CE /* LinkStack.c in Sources */ = {isa = PBXBuildFile; fileRef = D0EE3105219E98EE00C4C1CE /* LinkStack.c */; };
 		D2D9FB1A21A005DE00EC5729 /* LinkQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = D2D9FB1921A005DE00EC5729 /* LinkQueue.c */; };
-		D2D9FB2021A0450B00EC5729 /* 09二叉树的递归遍历.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D9FB1E21A0450B00EC5729 /* 09二叉树的递归遍历.cpp */; };
+		D2D9FB2321A1002B00EC5729 /* 10二叉树编程.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D9FB2121A1002B00EC5729 /* 10二叉树编程.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,6 +105,7 @@
 		D2D9FB1921A005DE00EC5729 /* LinkQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkQueue.c; sourceTree = "<group>"; };
 		D2D9FB1B21A020CC00EC5729 /* 08队列的链式存储.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "08队列的链式存储.cpp"; sourceTree = "<group>"; };
 		D2D9FB1E21A0450B00EC5729 /* 09二叉树的递归遍历.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "09二叉树的递归遍历.cpp"; sourceTree = "<group>"; };
+		D2D9FB2121A1002B00EC5729 /* 10二叉树编程.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10二叉树编程.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				D2D9FB1E21A0450B00EC5729 /* 09二叉树的递归遍历.cpp */,
+				D2D9FB2121A1002B00EC5729 /* 10二叉树编程.cpp */,
 			);
 			name = "02树形结构(非常重要)";
 			sourceTree = "<group>";
@@ -446,9 +448,9 @@
 			files = (
 				D055117B219C092C009A68BF /* ConfigFile.c in Sources */,
 				D0EE3100219E8A5000C4C1CE /* SeqStack.c in Sources */,
-				D2D9FB2021A0450B00EC5729 /* 09二叉树的递归遍历.cpp in Sources */,
 				D0551192219C1A3D009A68BF /* DynamicArray.c in Sources */,
 				D0EE30D7219D3D5500C4C1CE /* LinkList.c in Sources */,
+				D2D9FB2321A1002B00EC5729 /* 10二叉树编程.cpp in Sources */,
 				D2D9FB1A21A005DE00EC5729 /* LinkQueue.c in Sources */,
 				D0EE30D6219D358200C4C1CE /* LinkList.c in Sources */,
 				D055118C219C0A96009A68BF /* CSocketImp1.c in Sources */,
