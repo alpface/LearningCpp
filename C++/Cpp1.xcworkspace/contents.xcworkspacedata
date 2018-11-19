@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Cpp1/01/01.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Cpp1/02/02.xcodeproj">
+   </FileRef>
+</Workspace>
