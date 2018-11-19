@@ -35,13 +35,33 @@
 // 判断字符是否为右括号
 int isLeft(char ch)
 {
-    return ch == '(';
+    int ret =0;
+    switch(ch)
+    {
+        case '{':
+            ret=1;
+            break;
+        default:
+            ret=0;
+            break;
+    }
+    return ret;
 }
 
 // 判断字符是否为右括号
 int isRight(char ch)
 {
-    return ch == ')';
+    int ret =0;
+    switch(ch)
+    {
+        case '}':
+            ret=1;
+            break;
+        default:
+            ret=0;
+            break;
+    }
+    return ret;
 }
 
 /// 打印错误信息，并指向错误的那个字符
@@ -64,11 +84,16 @@ void printError(const char *str, const char *errMsg, char *pos)
 
 void test()
 {
-    const char *str = "8+9(dsh)[00(jj)(哈哈啊))";
+    const char *str = "#include  <stdio.h> int main () {int a[4][4]; int (*p)[4]; p=a[4; return 0;aaaa}{";
     char *p = (char *)str;
     
     // 初始化栈
     SeqStack stack = Init_SeqStack();
+    
+    /*
+     遇到左括号就压栈，遇到一个右括号，就先看栈是否为空，不为空就弹栈，为空就输出不匹配(即缺少左括号)；
+     遍历一遍后，检测栈是否为空，不为空就输出不匹配
+     */
     
     while (*p != '\0') {
         // 判断当前字符是否为左括号，如果为左括号就压入栈
@@ -90,7 +115,7 @@ void test()
     }
     
     while (Size_SeqStack(stack) > 0) {
-        printError(str, "没有匹配到右括号", (char *)Top_SeqStack(stack));
+        printError(str, "左括号没有匹配到右括号", (char *)Top_SeqStack(stack));
         Pop_SeqStack(stack);
     }
     
