@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2F981AF21A2E21500FFADAF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F981AE21A2E21500FFADAF /* main.cpp */; };
+		D2F981B921A2E90A00FFADAF /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F981B721A2E90A00FFADAF /* Point.cpp */; };
+		D2F981BC21A2E9E200FFADAF /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F981BA21A2E9E100FFADAF /* Circle.cpp */; };
+		D2F981C121A2F5C100FFADAF /* 03初始化和清理.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F981BF21A2F5C100FFADAF /* 03初始化和清理.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,13 @@
 
 /* Begin PBXFileReference section */
 		D2F981AB21A2E21500FFADAF /* 03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 03; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F981AE21A2E21500FFADAF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D2F981B521A2E26A00FFADAF /* 01面向对象设计案例-立方体案例.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01面向对象设计案例-立方体案例.cpp"; sourceTree = "<group>"; };
+		D2F981B721A2E90A00FFADAF /* Point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		D2F981B821A2E90A00FFADAF /* Point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
+		D2F981BA21A2E9E100FFADAF /* Circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		D2F981BB21A2E9E100FFADAF /* Circle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Circle.hpp; sourceTree = "<group>"; };
+		D2F981BD21A2EB1800FFADAF /* 02 面向对象设计案例-点和圆的关系.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02 面向对象设计案例-点和圆的关系.cpp"; sourceTree = "<group>"; };
+		D2F981BF21A2F5C100FFADAF /* 03初始化和清理.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03初始化和清理.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,13 @@
 		D2F981AD21A2E21500FFADAF /* 03 */ = {
 			isa = PBXGroup;
 			children = (
-				D2F981AE21A2E21500FFADAF /* main.cpp */,
+				D2F981B521A2E26A00FFADAF /* 01面向对象设计案例-立方体案例.cpp */,
+				D2F981BD21A2EB1800FFADAF /* 02 面向对象设计案例-点和圆的关系.cpp */,
+				D2F981BF21A2F5C100FFADAF /* 03初始化和清理.cpp */,
+				D2F981B721A2E90A00FFADAF /* Point.cpp */,
+				D2F981B821A2E90A00FFADAF /* Point.hpp */,
+				D2F981BA21A2E9E100FFADAF /* Circle.cpp */,
+				D2F981BB21A2E9E100FFADAF /* Circle.hpp */,
 			);
 			path = 03;
 			sourceTree = "<group>";
@@ -118,7 +132,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F981AF21A2E21500FFADAF /* main.cpp in Sources */,
+				D2F981B921A2E90A00FFADAF /* Point.cpp in Sources */,
+				D2F981C121A2F5C100FFADAF /* 03初始化和清理.cpp in Sources */,
+				D2F981BC21A2E9E200FFADAF /* Circle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
