@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D084A84021A3E532001BB497 /* 11new运算符的使用.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D084A83E21A3E532001BB497 /* 11new运算符的使用.cpp */; };
 		D2F981B921A2E90A00FFADAF /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F981B721A2E90A00FFADAF /* Point.cpp */; };
 		D2F981BC21A2E9E200FFADAF /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F981BA21A2E9E100FFADAF /* Circle.cpp */; };
-		D2F981C121A2F5C100FFADAF /* 03初始化和清理.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F981BF21A2F5C100FFADAF /* 03初始化和清理.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D084A81221A3954C001BB497 /* 04构造函数的分类及调用.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "04构造函数的分类及调用.cpp"; sourceTree = "<group>"; };
+		D084A81521A39D77001BB497 /* 05C++拷贝构造函数详解.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "05C++拷贝构造函数详解.cpp"; sourceTree = "<group>"; };
+		D084A83421A3C229001BB497 /* 06C++构造函数的调用规则.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "06C++构造函数的调用规则.cpp"; sourceTree = "<group>"; };
+		D084A83621A3C5A8001BB497 /* 07深拷贝和浅拷贝.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "07深拷贝和浅拷贝.cpp"; sourceTree = "<group>"; };
+		D084A83821A3CCB3001BB497 /* 08初始化列表的基本使用.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "08初始化列表的基本使用.cpp"; sourceTree = "<group>"; };
+		D084A83A21A3D06C001BB497 /* 09类对象作为成员.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "09类对象作为成员.cpp"; sourceTree = "<group>"; };
+		D084A83C21A3D780001BB497 /* 10C++中explicit的用法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10C++中explicit的用法.cpp"; sourceTree = "<group>"; };
+		D084A83E21A3E532001BB497 /* 11new运算符的使用.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11new运算符的使用.cpp"; sourceTree = "<group>"; };
 		D2F981AB21A2E21500FFADAF /* 03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 03; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F981B521A2E26A00FFADAF /* 01面向对象设计案例-立方体案例.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01面向对象设计案例-立方体案例.cpp"; sourceTree = "<group>"; };
 		D2F981B721A2E90A00FFADAF /* Point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
@@ -68,6 +76,14 @@
 				D2F981B521A2E26A00FFADAF /* 01面向对象设计案例-立方体案例.cpp */,
 				D2F981BD21A2EB1800FFADAF /* 02 面向对象设计案例-点和圆的关系.cpp */,
 				D2F981BF21A2F5C100FFADAF /* 03初始化和清理.cpp */,
+				D084A81221A3954C001BB497 /* 04构造函数的分类及调用.cpp */,
+				D084A81521A39D77001BB497 /* 05C++拷贝构造函数详解.cpp */,
+				D084A83421A3C229001BB497 /* 06C++构造函数的调用规则.cpp */,
+				D084A83621A3C5A8001BB497 /* 07深拷贝和浅拷贝.cpp */,
+				D084A83821A3CCB3001BB497 /* 08初始化列表的基本使用.cpp */,
+				D084A83A21A3D06C001BB497 /* 09类对象作为成员.cpp */,
+				D084A83C21A3D780001BB497 /* 10C++中explicit的用法.cpp */,
+				D084A83E21A3E532001BB497 /* 11new运算符的使用.cpp */,
 				D2F981B721A2E90A00FFADAF /* Point.cpp */,
 				D2F981B821A2E90A00FFADAF /* Point.hpp */,
 				D2F981BA21A2E9E100FFADAF /* Circle.cpp */,
@@ -132,8 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D084A84021A3E532001BB497 /* 11new运算符的使用.cpp in Sources */,
 				D2F981B921A2E90A00FFADAF /* Point.cpp in Sources */,
-				D2F981C121A2F5C100FFADAF /* 03初始化和清理.cpp in Sources */,
 				D2F981BC21A2E9E200FFADAF /* Circle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
