@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D05C4F5621A4ECEE00911198 /* 02单例模式-懒汉式.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D05C4F5521A4ECEE00911198 /* 02单例模式-懒汉式.cpp */; };
+		D0FCE2C521A551FA00994ECA /* 09成员函数做友元参数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0FCE2C421A551FA00994ECA /* 09成员函数做友元参数.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,15 @@
 		D05C4F5021A4E6A400911198 /* 02单例模式1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02单例模式1.cpp"; sourceTree = "<group>"; };
 		D05C4F5221A4EAB100911198 /* 02单例模式-饿汉式.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02单例模式-饿汉式.cpp"; sourceTree = "<group>"; };
 		D05C4F5521A4ECEE00911198 /* 02单例模式-懒汉式.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02单例模式-懒汉式.cpp"; sourceTree = "<group>"; };
+		D05C4F5721A5017C00911198 /* 03c++ 类成员变量，成员函数的存储方式，以及this指针在c++中的作用.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03c++ 类成员变量，成员函数的存储方式，以及this指针在c++中的作用.cpp"; sourceTree = "<group>"; };
+		D05C4F5A21A5066200911198 /* 04this指针的理解.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "04this指针的理解.cpp"; sourceTree = "<group>"; };
+		D05C4F5C21A5139100911198 /* 05空指针访问成员函数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "05空指针访问成员函数.cpp"; sourceTree = "<group>"; };
+		D05C4F5E21A51C5800911198 /* 06const修饰成员函数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "06const修饰成员函数.cpp"; sourceTree = "<group>"; };
+		D05C4F6021A5262400911198 /* 07全局函数做友元函数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "07全局函数做友元函数.cpp"; sourceTree = "<group>"; };
+		D05C4F6221A52D0000911198 /* 08友元类.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "08友元类.cpp"; sourceTree = "<group>"; };
 		D084A84A21A3FD6E001BB497 /* 04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 04; sourceTree = BUILT_PRODUCTS_DIR; };
 		D084A85421A3FDAE001BB497 /* 01静态成员变量和静态成员函数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01静态成员变量和静态成员函数.cpp"; sourceTree = "<group>"; };
+		D0FCE2C421A551FA00994ECA /* 09成员函数做友元参数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "09成员函数做友元参数.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +71,13 @@
 				D05C4F5021A4E6A400911198 /* 02单例模式1.cpp */,
 				D05C4F5221A4EAB100911198 /* 02单例模式-饿汉式.cpp */,
 				D05C4F5521A4ECEE00911198 /* 02单例模式-懒汉式.cpp */,
+				D05C4F5721A5017C00911198 /* 03c++ 类成员变量，成员函数的存储方式，以及this指针在c++中的作用.cpp */,
+				D05C4F5A21A5066200911198 /* 04this指针的理解.cpp */,
+				D05C4F5C21A5139100911198 /* 05空指针访问成员函数.cpp */,
+				D05C4F5E21A51C5800911198 /* 06const修饰成员函数.cpp */,
+				D05C4F6021A5262400911198 /* 07全局函数做友元函数.cpp */,
+				D05C4F6221A52D0000911198 /* 08友元类.cpp */,
+				D0FCE2C421A551FA00994ECA /* 09成员函数做友元参数.cpp */,
 			);
 			path = 04;
 			sourceTree = "<group>";
@@ -124,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D05C4F5621A4ECEE00911198 /* 02单例模式-懒汉式.cpp in Sources */,
+				D0FCE2C521A551FA00994ECA /* 09成员函数做友元参数.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
