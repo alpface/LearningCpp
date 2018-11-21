@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D084A85521A3FDAE001BB497 /* 01静态成员变量和静态成员函数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D084A85421A3FDAE001BB497 /* 01静态成员变量和静态成员函数.cpp */; };
+		D05C4F5621A4ECEE00911198 /* 02单例模式-懒汉式.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D05C4F5521A4ECEE00911198 /* 02单例模式-懒汉式.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D05C4F5021A4E6A400911198 /* 02单例模式1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02单例模式1.cpp"; sourceTree = "<group>"; };
+		D05C4F5221A4EAB100911198 /* 02单例模式-饿汉式.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02单例模式-饿汉式.cpp"; sourceTree = "<group>"; };
+		D05C4F5521A4ECEE00911198 /* 02单例模式-懒汉式.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02单例模式-懒汉式.cpp"; sourceTree = "<group>"; };
 		D084A84A21A3FD6E001BB497 /* 04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 04; sourceTree = BUILT_PRODUCTS_DIR; };
 		D084A85421A3FDAE001BB497 /* 01静态成员变量和静态成员函数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01静态成员变量和静态成员函数.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				D084A85421A3FDAE001BB497 /* 01静态成员变量和静态成员函数.cpp */,
+				D05C4F5021A4E6A400911198 /* 02单例模式1.cpp */,
+				D05C4F5221A4EAB100911198 /* 02单例模式-饿汉式.cpp */,
+				D05C4F5521A4ECEE00911198 /* 02单例模式-懒汉式.cpp */,
 			);
 			path = 04;
 			sourceTree = "<group>";
@@ -118,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D084A85521A3FDAE001BB497 /* 01静态成员变量和静态成员函数.cpp in Sources */,
+				D05C4F5621A4ECEE00911198 /* 02单例模式-懒汉式.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
