@@ -6,6 +6,11 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D0FCE2EE21A55FF000994ECA /* MyArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0FCE2EC21A55FF000994ECA /* MyArray.cpp */; };
+		D0FCE2F021A566AF00994ECA /* 01强化对象-数组封装.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0FCE2EF21A566AF00994ECA /* 01强化对象-数组封装.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		D0FCE2E021A55FA000994ECA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		D0FCE2E221A55FA000994ECA /* 05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 05; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FCE2EC21A55FF000994ECA /* MyArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyArray.cpp; sourceTree = "<group>"; };
+		D0FCE2ED21A55FF000994ECA /* MyArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyArray.hpp; sourceTree = "<group>"; };
+		D0FCE2EF21A566AF00994ECA /* 01强化对象-数组封装.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01强化对象-数组封装.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,9 @@
 		D0FCE2E421A55FA000994ECA /* 05 */ = {
 			isa = PBXGroup;
 			children = (
+				D0FCE2EC21A55FF000994ECA /* MyArray.cpp */,
+				D0FCE2ED21A55FF000994ECA /* MyArray.hpp */,
+				D0FCE2EF21A566AF00994ECA /* 01强化对象-数组封装.cpp */,
 			);
 			path = 05;
 			sourceTree = "<group>";
@@ -112,6 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0FCE2F021A566AF00994ECA /* 01强化对象-数组封装.cpp in Sources */,
+				D0FCE2EE21A55FF000994ECA /* MyArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
