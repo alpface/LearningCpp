@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D08FB7CB21A6A286006D47EA /* MyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D08FB7C921A6A286006D47EA /* MyString.cpp */; };
-		D08FB7CD21A6A7F0006D47EA /* 03字符串类的封装.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D08FB7CC21A6A7F0006D47EA /* 03字符串类的封装.cpp */; };
+		D2F981D121A706F400FFADAF /* 09继承中静态成员的处理.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F981D021A706F400FFADAF /* 09继承中静态成员的处理.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +30,12 @@
 		D08FB7C921A6A286006D47EA /* MyString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyString.cpp; sourceTree = "<group>"; };
 		D08FB7CA21A6A286006D47EA /* MyString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyString.hpp; sourceTree = "<group>"; };
 		D08FB7CC21A6A7F0006D47EA /* 03字符串类的封装.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03字符串类的封装.cpp"; sourceTree = "<group>"; };
+		D2F981C621A6F9AB00FFADAF /* 04继承的引出.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "04继承的引出.cpp"; sourceTree = "<group>"; };
+		D2F981C821A6FD8D00FFADAF /* 05继承方式.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "05继承方式.cpp"; sourceTree = "<group>"; };
+		D2F981CA21A7002300FFADAF /* 06继承中的对象模型.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "06继承中的对象模型.cpp"; sourceTree = "<group>"; };
+		D2F981CC21A7013300FFADAF /* 07继承中的构造和析构函数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "07继承中的构造和析构函数.cpp"; sourceTree = "<group>"; };
+		D2F981CE21A703B300FFADAF /* 08继承中的同名处理.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "08继承中的同名处理.cpp"; sourceTree = "<group>"; };
+		D2F981D021A706F400FFADAF /* 09继承中静态成员的处理.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "09继承中静态成员的处理.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,12 @@
 				D08FB7C921A6A286006D47EA /* MyString.cpp */,
 				D08FB7CA21A6A286006D47EA /* MyString.hpp */,
 				D08FB7CC21A6A7F0006D47EA /* 03字符串类的封装.cpp */,
+				D2F981C621A6F9AB00FFADAF /* 04继承的引出.cpp */,
+				D2F981C821A6FD8D00FFADAF /* 05继承方式.cpp */,
+				D2F981CA21A7002300FFADAF /* 06继承中的对象模型.cpp */,
+				D2F981CC21A7013300FFADAF /* 07继承中的构造和析构函数.cpp */,
+				D2F981CE21A703B300FFADAF /* 08继承中的同名处理.cpp */,
+				D2F981D021A706F400FFADAF /* 09继承中静态成员的处理.cpp */,
 			);
 			path = 06;
 			sourceTree = "<group>";
@@ -127,8 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08FB7CD21A6A7F0006D47EA /* 03字符串类的封装.cpp in Sources */,
 				D08FB7CB21A6A286006D47EA /* MyString.cpp in Sources */,
+				D2F981D121A706F400FFADAF /* 09继承中静态成员的处理.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
