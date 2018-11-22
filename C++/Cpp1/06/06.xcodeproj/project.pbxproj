@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D08FB7BF21A692BA006D47EA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D08FB7BE21A692BA006D47EA /* main.cpp */; };
+		D08FB7CB21A6A286006D47EA /* MyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D08FB7C921A6A286006D47EA /* MyString.cpp */; };
+		D08FB7CD21A6A7F0006D47EA /* 03字符串类的封装.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D08FB7CC21A6A7F0006D47EA /* 03字符串类的封装.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,11 @@
 
 /* Begin PBXFileReference section */
 		D08FB7BB21A692BA006D47EA /* 06 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 06; sourceTree = BUILT_PRODUCTS_DIR; };
-		D08FB7BE21A692BA006D47EA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D08FB7C521A6930C006D47EA /* 01关系运算符重载.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01关系运算符重载.cpp"; sourceTree = "<group>"; };
+		D08FB7C721A697CA006D47EA /* 02函数运算符重载.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02函数运算符重载.cpp"; sourceTree = "<group>"; };
+		D08FB7C921A6A286006D47EA /* MyString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyString.cpp; sourceTree = "<group>"; };
+		D08FB7CA21A6A286006D47EA /* MyString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyString.hpp; sourceTree = "<group>"; };
+		D08FB7CC21A6A7F0006D47EA /* 03字符串类的封装.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03字符串类的封装.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,11 @@
 		D08FB7BD21A692BA006D47EA /* 06 */ = {
 			isa = PBXGroup;
 			children = (
-				D08FB7BE21A692BA006D47EA /* main.cpp */,
+				D08FB7C521A6930C006D47EA /* 01关系运算符重载.cpp */,
+				D08FB7C721A697CA006D47EA /* 02函数运算符重载.cpp */,
+				D08FB7C921A6A286006D47EA /* MyString.cpp */,
+				D08FB7CA21A6A286006D47EA /* MyString.hpp */,
+				D08FB7CC21A6A7F0006D47EA /* 03字符串类的封装.cpp */,
 			);
 			path = 06;
 			sourceTree = "<group>";
@@ -118,7 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08FB7BF21A692BA006D47EA /* main.cpp in Sources */,
+				D08FB7CD21A6A7F0006D47EA /* 03字符串类的封装.cpp in Sources */,
+				D08FB7CB21A6A286006D47EA /* MyString.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
