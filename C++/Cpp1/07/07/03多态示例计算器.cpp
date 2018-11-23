@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  03多态示例计算器.cpp
 //  07
 //
 //  Created by xiaoyuan on 2018/11/23.
@@ -8,8 +8,9 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+int main(int argc, const char*argv[])
+{
+    return EXIT_SUCCESS;
 }
