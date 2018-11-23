@@ -19,4 +19,7 @@
    <FileRef
       location = "group:Cpp1/02/02.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Cpp1/06/../07/07.xcodeproj">
+   </FileRef>
 </Workspace>
