@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01CC3D421A79FBF008EBDA8 /* 11菱形继承的概念以及问题.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D01CC3D321A79FBF008EBDA8 /* 11菱形继承的概念以及问题.cpp */; };
 		D08FB7CB21A6A286006D47EA /* MyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D08FB7C921A6A286006D47EA /* MyString.cpp */; };
-		D2F981D121A706F400FFADAF /* 09继承中静态成员的处理.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F981D021A706F400FFADAF /* 09继承中静态成员的处理.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D01CC3D121A7998D008EBDA8 /* 10多继承概念.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10多继承概念.cpp"; sourceTree = "<group>"; };
+		D01CC3D321A79FBF008EBDA8 /* 11菱形继承的概念以及问题.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11菱形继承的概念以及问题.cpp"; sourceTree = "<group>"; };
 		D08FB7BB21A692BA006D47EA /* 06 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 06; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08FB7C521A6930C006D47EA /* 01关系运算符重载.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01关系运算符重载.cpp"; sourceTree = "<group>"; };
 		D08FB7C721A697CA006D47EA /* 02函数运算符重载.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02函数运算符重载.cpp"; sourceTree = "<group>"; };
@@ -79,6 +81,8 @@
 				D2F981CC21A7013300FFADAF /* 07继承中的构造和析构函数.cpp */,
 				D2F981CE21A703B300FFADAF /* 08继承中的同名处理.cpp */,
 				D2F981D021A706F400FFADAF /* 09继承中静态成员的处理.cpp */,
+				D01CC3D121A7998D008EBDA8 /* 10多继承概念.cpp */,
+				D01CC3D321A79FBF008EBDA8 /* 11菱形继承的概念以及问题.cpp */,
 			);
 			path = 06;
 			sourceTree = "<group>";
@@ -139,8 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01CC3D421A79FBF008EBDA8 /* 11菱形继承的概念以及问题.cpp in Sources */,
 				D08FB7CB21A6A286006D47EA /* MyString.cpp in Sources */,
-				D2F981D121A706F400FFADAF /* 09继承中静态成员的处理.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
