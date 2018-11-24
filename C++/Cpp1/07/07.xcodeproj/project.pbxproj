@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D01CC3FB21A8038D008EBDA8 /* 03多态示例计算器.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D01CC3FA21A8038D008EBDA8 /* 03多态示例计算器.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		D01CC3DC21A7CC7C008EBDA8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -28,6 +24,7 @@
 		D01CC3F621A7F4C4008EBDA8 /* 02多态的实现及原理.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02多态的实现及原理.cpp"; sourceTree = "<group>"; };
 		D01CC3F821A7FFD9008EBDA8 /* 03多态示例1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03多态示例1.cpp"; sourceTree = "<group>"; };
 		D01CC3FA21A8038D008EBDA8 /* 03多态示例计算器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03多态示例计算器.cpp"; sourceTree = "<group>"; };
+		D2F981D221A99ABA00FFADAF /* 04虚析构和纯虚析构.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "04虚析构和纯虚析构.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +61,7 @@
 				D01CC3F621A7F4C4008EBDA8 /* 02多态的实现及原理.cpp */,
 				D01CC3F821A7FFD9008EBDA8 /* 03多态示例1.cpp */,
 				D01CC3FA21A8038D008EBDA8 /* 03多态示例计算器.cpp */,
+				D2F981D221A99ABA00FFADAF /* 04虚析构和纯虚析构.cpp */,
 			);
 			path = 07;
 			sourceTree = "<group>";
@@ -124,7 +122,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D01CC3FB21A8038D008EBDA8 /* 03多态示例计算器.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
