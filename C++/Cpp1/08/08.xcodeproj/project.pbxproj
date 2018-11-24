@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2F981E421A99FD400FFADAF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F981E321A99FD400FFADAF /* main.cpp */; };
+		D2F981F321A9AB2100FFADAF /* 05类模板的基本使用.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F981F221A9AB2100FFADAF /* 05类模板的基本使用.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,11 @@
 
 /* Begin PBXFileReference section */
 		D2F981E021A99FD400FFADAF /* 08 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 08; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F981E321A99FD400FFADAF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D2F981EA21A9A03600FFADAF /* 01函数模板的基本使用.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01函数模板的基本使用.cpp"; sourceTree = "<group>"; };
+		D2F981EC21A9A2DA00FFADAF /* 02利用模板实现char和int的数组排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02利用模板实现char和int的数组排序.cpp"; sourceTree = "<group>"; };
+		D2F981EE21A9A58200FFADAF /* 03函数模板与普通函数的区别以及调用规则.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03函数模板与普通函数的区别以及调用规则.cpp"; sourceTree = "<group>"; };
+		D2F981F021A9A95200FFADAF /* 04模板的局限性以及解决.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "04模板的局限性以及解决.cpp"; sourceTree = "<group>"; };
+		D2F981F221A9AB2100FFADAF /* 05类模板的基本使用.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "05类模板的基本使用.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,11 @@
 		D2F981E221A99FD400FFADAF /* 08 */ = {
 			isa = PBXGroup;
 			children = (
-				D2F981E321A99FD400FFADAF /* main.cpp */,
+				D2F981EA21A9A03600FFADAF /* 01函数模板的基本使用.cpp */,
+				D2F981EC21A9A2DA00FFADAF /* 02利用模板实现char和int的数组排序.cpp */,
+				D2F981EE21A9A58200FFADAF /* 03函数模板与普通函数的区别以及调用规则.cpp */,
+				D2F981F021A9A95200FFADAF /* 04模板的局限性以及解决.cpp */,
+				D2F981F221A9AB2100FFADAF /* 05类模板的基本使用.cpp */,
 			);
 			path = 08;
 			sourceTree = "<group>";
@@ -118,7 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F981E421A99FD400FFADAF /* main.cpp in Sources */,
+				D2F981F321A9AB2100FFADAF /* 05类模板的基本使用.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
