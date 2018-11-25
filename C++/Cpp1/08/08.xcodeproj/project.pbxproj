@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2F981F321A9AB2100FFADAF /* 05类模板的基本使用.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F981F221A9AB2100FFADAF /* 05类模板的基本使用.cpp */; };
+		D2F9820421AA469C00FFADAF /* 12类模板的应用-数组类封装.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F9820321AA469C00FFADAF /* 12类模板的应用-数组类封装.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,15 @@
 		D2F981EE21A9A58200FFADAF /* 03函数模板与普通函数的区别以及调用规则.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03函数模板与普通函数的区别以及调用规则.cpp"; sourceTree = "<group>"; };
 		D2F981F021A9A95200FFADAF /* 04模板的局限性以及解决.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "04模板的局限性以及解决.cpp"; sourceTree = "<group>"; };
 		D2F981F221A9AB2100FFADAF /* 05类模板的基本使用.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "05类模板的基本使用.cpp"; sourceTree = "<group>"; };
+		D2F981F421AA38D100FFADAF /* 06类模板做函数的参数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "06类模板做函数的参数.cpp"; sourceTree = "<group>"; };
+		D2F981F621AA3BAC00FFADAF /* 07类模板碰到继承的问题.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "07类模板碰到继承的问题.cpp"; sourceTree = "<group>"; };
+		D2F981F821AA3D8C00FFADAF /* 08类模板类外实现成员函数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "08类模板类外实现成员函数.cpp"; sourceTree = "<group>"; };
+		D2F981FA21AA402C00FFADAF /* 09类模板的分文件编写问题以及解决.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "09类模板的分文件编写问题以及解决.cpp"; sourceTree = "<group>"; };
+		D2F981FD21AA405600FFADAF /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		D2F981FF21AA422200FFADAF /* 10类模板碰到了友元函数-类内实现.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10类模板碰到了友元函数-类内实现.cpp"; sourceTree = "<group>"; };
+		D2F9820121AA432300FFADAF /* 11类模板碰到友元函数-类外实现.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11类模板碰到友元函数-类外实现.cpp"; sourceTree = "<group>"; };
+		D2F9820321AA469C00FFADAF /* 12类模板的应用-数组类封装.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12类模板的应用-数组类封装.cpp"; sourceTree = "<group>"; };
+		D2F9820621AA46BA00FFADAF /* MyArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyArray.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +75,15 @@
 				D2F981EE21A9A58200FFADAF /* 03函数模板与普通函数的区别以及调用规则.cpp */,
 				D2F981F021A9A95200FFADAF /* 04模板的局限性以及解决.cpp */,
 				D2F981F221A9AB2100FFADAF /* 05类模板的基本使用.cpp */,
+				D2F981F421AA38D100FFADAF /* 06类模板做函数的参数.cpp */,
+				D2F981F621AA3BAC00FFADAF /* 07类模板碰到继承的问题.cpp */,
+				D2F981F821AA3D8C00FFADAF /* 08类模板类外实现成员函数.cpp */,
+				D2F981FA21AA402C00FFADAF /* 09类模板的分文件编写问题以及解决.cpp */,
+				D2F981FD21AA405600FFADAF /* Person.hpp */,
+				D2F981FF21AA422200FFADAF /* 10类模板碰到了友元函数-类内实现.cpp */,
+				D2F9820121AA432300FFADAF /* 11类模板碰到友元函数-类外实现.cpp */,
+				D2F9820321AA469C00FFADAF /* 12类模板的应用-数组类封装.cpp */,
+				D2F9820621AA46BA00FFADAF /* MyArray.hpp */,
 			);
 			path = 08;
 			sourceTree = "<group>";
@@ -126,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F981F321A9AB2100FFADAF /* 05类模板的基本使用.cpp in Sources */,
+				D2F9820421AA469C00FFADAF /* 12类模板的应用-数组类封装.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
