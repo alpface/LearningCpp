@@ -187,11 +187,126 @@ void test05()
     }
 }
 
+/*
+ string子串
+ string substr(int pos = 0, int n = npos) const;//返回由pos开始的n个字符组成的字符串
+ */
+
+void test06()
+{
+    // 获取某个范围的子串
+    string str = "abcdefg";
+    string subStr = str.substr(1, 3);
+    cout << subStr << endl;
+    
+    // 截取邮箱中的用户名
+    string mailStr = "sey@live.cn";
+    size_t pos = mailStr.find("@");
+    string mailSubStr = mailStr.substr(0, pos);
+    cout << mailSubStr << endl;
+}
+
+/*
+ string插入和删除操作
+ string& insert(int pos, const char* s); //插入字符串
+ string& insert(int pos, const string& str); //插入字符串
+ string& insert(int pos, int n, char c);//在指定位置插入n个字符c
+ string& erase(int pos, int n = npos);//删除从Pos开始的n个字符
+ */
+void test07()
+{
+    // 插入字符
+    string str1 = "hello world";
+    str1.insert(3, " 11 ");
+    cout << str1 << endl;
+    
+    // 删除字符串
+    str1.erase(3, 4);
+    cout << str1 << endl;
+}
+
+/*
+ string和c-style字符串转换
+ //string 转 char*
+ string str = "itcast";
+ const char* cstr = str.c_str();
+ //char* 转 string
+ char* s = "itcast";
+ string str(s);
+
+ */
+void func(string s)
+{
+    cout << s << endl;
+}
+void func1(char *p)
+{
+    cout << p << endl;
+}
+void test08()
+{
+    string s = "abc";
+    const char * p = s.c_str();
+    
+    func(p); // 隐士类型转换const char * 隐士转换为string
+    
+    string s1 = string(p);
+//    func1(s1); // string不能 隐士转换为const char *
+    /*
+     在c++中存在一个从const char*到string的隐式类型转换，却不存在从一个string对象到C_string的自动类型转换。对于string类型的字符串，可以通过c_str()函数返回string对象对应的C_string.
+     通常，程序员在整个程序中应坚持使用string类对象，直到必须将内容转化为char*时才将其转换为C_string.
+     
+     */
+}
+
+void test09()
+{
+    /*
+    为了修改string字符串的内容，下标操作符[]和at都会返回字符的引用。但当字符串的内存被重新分配之后，可能发生错误.
+    */
+    string s = "abcdefg";
+    char& a = s[2];
+    char& b = s[3];
+    
+    a = '1';
+    b = '2';
+    
+    cout << s << endl;
+    cout << (int*)s.c_str() << endl;
+    
+    s = "pppppppppppppppppppppppp";
+    
+//    a = '1';
+//    b = '2';
+    
+    cout << s << endl;
+    cout << (int*)s.c_str() << endl;
+    
+    // 两次打印(int*)s.c_str() 地址不同
+}
+
+// 写一个函数，将sring的所有小写字母都转换为大写
+void test10()
+{
+    string str = "AbcedF";
+    for (int i = 0; i < str.size(); ++i) {
+        // 转大写
+        str[i] = toupper(str[i]);
+        // 转小写
+//        str[i] = tolower(str[i]);
+    }
+    cout << str << endl;
+}
 int main(int argc, const char *argv[])
 {
 //    test01();
 //    test02();
 //    test03();
-    test05();
+//    test05();
+//    test06();
+//    test07();
+//    test08();
+//    test09();
+    test10();
     return EXIT_SUCCESS;
 }
