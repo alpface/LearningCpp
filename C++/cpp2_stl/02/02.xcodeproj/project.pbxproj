@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0E253B621AD003F0064DFF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0E253B521AD003F0064DFF7 /* main.cpp */; };
+		D0E253C321AD36F00064DFF7 /* 03list容器.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0E253C221AD36F00064DFF7 /* 03list容器.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		D0E253B221AD003F0064DFF7 /* 02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 02; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0E253B521AD003F0064DFF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D0E253BE21AD1EFE0064DFF7 /* 01stack栈容器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01stack栈容器.cpp"; sourceTree = "<group>"; };
+		D0E253C021AD21790064DFF7 /* 02queue容器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02queue容器.cpp"; sourceTree = "<group>"; };
+		D0E253C221AD36F00064DFF7 /* 03list容器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03list容器.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,9 @@
 		D0E253B421AD003F0064DFF7 /* 02 */ = {
 			isa = PBXGroup;
 			children = (
-				D0E253B521AD003F0064DFF7 /* main.cpp */,
+				D0E253BE21AD1EFE0064DFF7 /* 01stack栈容器.cpp */,
+				D0E253C021AD21790064DFF7 /* 02queue容器.cpp */,
+				D0E253C221AD36F00064DFF7 /* 03list容器.cpp */,
 			);
 			path = 02;
 			sourceTree = "<group>";
@@ -118,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E253B621AD003F0064DFF7 /* main.cpp in Sources */,
+				D0E253C321AD36F00064DFF7 /* 03list容器.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
