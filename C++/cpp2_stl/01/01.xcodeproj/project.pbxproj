@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0C332C421ABEE9600D524B8 /* 02string容器.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0C332C321ABEE9600D524B8 /* 02string容器.cpp */; };
+		D0E253A821ACE2D70064DFF7 /* 04deque容器.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0E253A721ACE2D70064DFF7 /* 04deque容器.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,8 @@
 		D0C332B721ABD84A00D524B8 /* 01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 01; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C332C121ABDBB100D524B8 /* 01STL三大组件.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01STL三大组件.cpp"; sourceTree = "<group>"; };
 		D0C332C321ABEE9600D524B8 /* 02string容器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02string容器.cpp"; sourceTree = "<group>"; };
+		D0E253A521ACD1CD0064DFF7 /* 03vector容器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03vector容器.cpp"; sourceTree = "<group>"; };
+		D0E253A721ACE2D70064DFF7 /* 04deque容器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "04deque容器.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,8 @@
 			children = (
 				D0C332C121ABDBB100D524B8 /* 01STL三大组件.cpp */,
 				D0C332C321ABEE9600D524B8 /* 02string容器.cpp */,
+				D0E253A521ACD1CD0064DFF7 /* 03vector容器.cpp */,
+				D0E253A721ACE2D70064DFF7 /* 04deque容器.cpp */,
 			);
 			path = 01;
 			sourceTree = "<group>";
@@ -120,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C332C421ABEE9600D524B8 /* 02string容器.cpp in Sources */,
+				D0E253A821ACE2D70064DFF7 /* 04deque容器.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
