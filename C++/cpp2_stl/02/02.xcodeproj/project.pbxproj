@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D062280E21AE409C002157AE /* 07案例-员工分组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D062280D21AE409C002157AE /* 07案例-员工分组.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		D0E253B021AD003F0064DFF7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -22,6 +26,7 @@
 		D062280521AE2551002157AE /* 04set容器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "04set容器.cpp"; sourceTree = "<group>"; };
 		D062280721AE3390002157AE /* 05pair对组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "05pair对组.cpp"; sourceTree = "<group>"; };
 		D062280921AE3555002157AE /* 06map容器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "06map容器.cpp"; sourceTree = "<group>"; };
+		D062280D21AE409C002157AE /* 07案例-员工分组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "07案例-员工分组.cpp"; sourceTree = "<group>"; };
 		D0E253B221AD003F0064DFF7 /* 02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 02; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E253BE21AD1EFE0064DFF7 /* 01stack栈容器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01stack栈容器.cpp"; sourceTree = "<group>"; };
 		D0E253C021AD21790064DFF7 /* 02queue容器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02queue容器.cpp"; sourceTree = "<group>"; };
@@ -64,6 +69,7 @@
 				D062280521AE2551002157AE /* 04set容器.cpp */,
 				D062280721AE3390002157AE /* 05pair对组.cpp */,
 				D062280921AE3555002157AE /* 06map容器.cpp */,
+				D062280D21AE409C002157AE /* 07案例-员工分组.cpp */,
 			);
 			path = 02;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D062280E21AE409C002157AE /* 07案例-员工分组.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
