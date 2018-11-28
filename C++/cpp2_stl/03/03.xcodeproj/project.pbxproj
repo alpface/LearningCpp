@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D062281C21AE68E3002157AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D062281B21AE68E3002157AE /* main.cpp */; };
+		D062282521AE6C02002157AE /* 02谓词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D062282421AE6C02002157AE /* 02谓词.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		D062281821AE68E3002157AE /* 03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 03; sourceTree = BUILT_PRODUCTS_DIR; };
-		D062281B21AE68E3002157AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D062282221AE694E002157AE /* 01函数对象的基本使用.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01函数对象的基本使用.cpp"; sourceTree = "<group>"; };
+		D062282421AE6C02002157AE /* 02谓词.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02谓词.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		D062281A21AE68E3002157AE /* 03 */ = {
 			isa = PBXGroup;
 			children = (
-				D062281B21AE68E3002157AE /* main.cpp */,
+				D062282221AE694E002157AE /* 01函数对象的基本使用.cpp */,
+				D062282421AE6C02002157AE /* 02谓词.cpp */,
 			);
 			path = 03;
 			sourceTree = "<group>";
@@ -118,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D062281C21AE68E3002157AE /* main.cpp in Sources */,
+				D062282521AE6C02002157AE /* 02谓词.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
