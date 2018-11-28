@@ -234,7 +234,7 @@ public:
     Person(){};
     Person(string name, int age, double height):m_name(name), m_age(age), m_height(height){}
     // 重载==运算符，让list的remove可以删除自定义类型
-    bool operator==(const Person &p)
+    bool operator==(const Person &p) const// 注意重载此函数需要加上const，将其定义为常函数，不然在mac上无法编译通过
     {
         if (this->m_name.compare(p.m_name) == 0 && this->m_age == p.m_age && this->m_height == p.m_height) {
             return true;
@@ -276,7 +276,7 @@ void test05()
     }
     cout << "--------" << endl;
     // 删除巴巴
-//    myList.remove(p3); // remove自定义类型必须要重载自定义类型的==操作符，不然无法编译过
+    myList.remove(p3); // remove自定义类型必须要重载自定义类型的==操作符，不然无法编译过
     for (list<Person>::iterator it = myList.begin(); it != myList.end(); ++it) {
         cout << "姓名:" << it->m_name << " 年龄:" << it->m_age << " 高度:" << it->m_height << endl;
     }
