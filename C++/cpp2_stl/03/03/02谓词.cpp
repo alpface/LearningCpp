@@ -74,6 +74,7 @@ void test02()
     for_each(v.begin(), v.end(), [](int val){
         cout << val << endl;
     });
+   
 }
 
 int main(int argc, const char*argv[])
