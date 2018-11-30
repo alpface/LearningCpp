@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0ED0FBC21B0CFF000F1F655 /* 03内建函数对象.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0ED0FBB21B0CFF000F1F655 /* 03内建函数对象.cpp */; };
+		D0ED0FCA21B13D6B00F1F655 /* 10常用集合算法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0ED0FC921B13D6B00F1F655 /* 10常用集合算法.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,13 @@
 		D062282221AE694E002157AE /* 01函数对象的基本使用.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01函数对象的基本使用.cpp"; sourceTree = "<group>"; };
 		D062282421AE6C02002157AE /* 02谓词.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02谓词.cpp"; sourceTree = "<group>"; };
 		D0ED0FBB21B0CFF000F1F655 /* 03内建函数对象.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03内建函数对象.cpp"; sourceTree = "<group>"; };
+		D0ED0FBD21B0D7B800F1F655 /* 04适配器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "04适配器.cpp"; sourceTree = "<group>"; };
+		D0ED0FBF21B0FA7000F1F655 /* 05常用遍历算法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "05常用遍历算法.cpp"; sourceTree = "<group>"; };
+		D0ED0FC121B1130C00F1F655 /* 06常用查找算法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "06常用查找算法.cpp"; sourceTree = "<group>"; };
+		D0ED0FC321B12BEE00F1F655 /* 07常用排序算法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "07常用排序算法.cpp"; sourceTree = "<group>"; };
+		D0ED0FC521B12FFE00F1F655 /* 08常用拷贝和替换算法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "08常用拷贝和替换算法.cpp"; sourceTree = "<group>"; };
+		D0ED0FC721B13BA100F1F655 /* 09常用算数生成算法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "09常用算数生成算法.cpp"; sourceTree = "<group>"; };
+		D0ED0FC921B13D6B00F1F655 /* 10常用集合算法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10常用集合算法.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,13 @@
 				D062282221AE694E002157AE /* 01函数对象的基本使用.cpp */,
 				D062282421AE6C02002157AE /* 02谓词.cpp */,
 				D0ED0FBB21B0CFF000F1F655 /* 03内建函数对象.cpp */,
+				D0ED0FBD21B0D7B800F1F655 /* 04适配器.cpp */,
+				D0ED0FBF21B0FA7000F1F655 /* 05常用遍历算法.cpp */,
+				D0ED0FC121B1130C00F1F655 /* 06常用查找算法.cpp */,
+				D0ED0FC321B12BEE00F1F655 /* 07常用排序算法.cpp */,
+				D0ED0FC521B12FFE00F1F655 /* 08常用拷贝和替换算法.cpp */,
+				D0ED0FC721B13BA100F1F655 /* 09常用算数生成算法.cpp */,
+				D0ED0FC921B13D6B00F1F655 /* 10常用集合算法.cpp */,
 			);
 			path = 03;
 			sourceTree = "<group>";
@@ -122,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0ED0FBC21B0CFF000F1F655 /* 03内建函数对象.cpp in Sources */,
+				D0ED0FCA21B13D6B00F1F655 /* 10常用集合算法.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
