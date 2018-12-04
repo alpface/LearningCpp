@@ -54,7 +54,7 @@ MyWidget::MyWidget(QWidget *parent)
 
     // 信号和槽
     // 点击myBtn关闭窗口
-    // 参数1：信号的发送者，参数2：发送的信号类型（比如点击），参数3：信号的接受者，参数4：处理的槽函数
+    // 参数1：信号的发送者，参数2：发送的信号类型地址（比如点击），参数3：信号的接受者，参数4：处理的槽函数的地址
     connect(myBtn, &MyButton::clicked, this, &MyWidget::close);
 
 }

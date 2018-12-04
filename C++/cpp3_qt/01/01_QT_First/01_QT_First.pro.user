@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.7.1, 2018-12-04T00:08:34. -->
+<!-- Written by QtCreator 4.7.1, 2018-12-04T21:50:20. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -306,8 +306,8 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">01_QT_First</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/swae/Documents/Github/StudyC-/C++/cpp3_qt/01_QT_First/01_QT_First.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">01_QT_First2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/swae/Documents/Github/StudyC-/C++/cpp3_qt/01/01_QT_First/01_QT_First.pro</value>
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseDyldImageSuffix">false</value>
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
