@@ -18,6 +18,9 @@ public slots:
     // 需要声明，也需要实现
     // 槽函数可以有参数，也可以重载
     void treat();
+
+    // 槽函数重载 带参数
+    void treat(QString foodName);
 };
 
 #endif // STUDENT_H

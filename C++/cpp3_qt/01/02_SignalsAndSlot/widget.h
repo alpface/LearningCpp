@@ -4,6 +4,7 @@
 #include <QWidget>
 #include "student.h"
 #include "teacher.h"
+#include <QPushButton>
 
 class Widget : public QWidget
 {
@@ -14,7 +15,9 @@ public:
     ~Widget();
     Teacher *teacher;
     Student *student;
+    QPushButton *btn2;
     void classIsOver();
+    void buttonClick();
 };
 
 #endif // WIDGET_H
