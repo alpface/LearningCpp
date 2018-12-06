@@ -1,4 +1,5 @@
 #include "widget.h"
+#include <QDebug>
 
 /*
 需求：创建两个类 Teacher类和Student类
@@ -59,6 +60,58 @@ Widget::Widget(QWidget *parent)
     btn2 = new QPushButton("aaaa", this);
     btn2->move(100, 100);
     connect(btn2, &QPushButton::clicked, this, &Widget::buttonClick);
+
+    // lambda 表达式
+    /*
+    C++11中的Lambda表达式用于定义并创建匿名的函数对象，以简化编程工作。首先看一下Lambda表达式的基本构成：
+    [capture](parameters) mutable ->return-type
+    {
+        statement
+    }
+    =。函数体内可以使用Lambda所在作用范围内所有可见的局部变量（包括Lambda所在类的this），并且是值传递方式（相当于编译器自动为我们按值传递了所有局部变量）。
+    &。函数体内可以使用Lambda所在作用范围内所有可见的局部变量（包括Lambda所在类的this），并且是引用传递方式（相当于编译器自动为我们按引用传递了所有局部变量）。
+
+    */
+
+    QPushButton *myBtn = new QPushButton(this);
+    QPushButton *myBtn1 = new QPushButton(this);
+    myBtn->move(200, 200);
+    myBtn1->move(300, 300);
+    int m = 10;
+    connect(myBtn, &QPushButton::clicked, this, [m]()mutable {
+        m = 100+10;
+        qDebug() << m;
+    });
+    connect(myBtn1, &QPushButton::clicked, this, [=]()mutable {
+        qDebug() << m ;
+    });
+    qDebug() << m;
+
+    // 待返回值的lambda表达式
+    int ret = []()->int {
+            return 20;
+    }();
+    qDebug() << ret ;
+
+    // 用到最频繁的是[=](){}
+
+    // 信号槽连接，lambda表达式内默认使用外部的变量是只读的，如果进行写操作，会挂掉
+    // 但是我在mac上测试 qt4.7.1不挂
+    QPushButton *myBtn2 = new QPushButton("ccccc", this);
+    myBtn2->move(400, 300);
+    connect(myBtn2, &QPushButton::clicked, this, [=](){
+        myBtn2->setText("aaaaaa");
+    });
+
+
+    // 使用lambda表达式 信号槽无参数调用有参数的槽
+    connect(myBtn2, &QPushButton::clicked, this, [=](){
+        teacher->hungry("吃好吃的西红柿鸡蛋");
+    });
+    // 点击按钮关闭窗口
+    connect(myBtn2, &QPushButton::clicked, [=](){
+        this->close();
+    });
 }
 
 Widget::~Widget()
