@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0A0E46821B5176900D23873 /* 11案例-STL综合案例.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0A0E46721B5176900D23873 /* 11案例-STL综合案例.cpp */; };
+		D0C30DF521C89C0100BC217D /* 12多线程.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0C30DF421C89C0100BC217D /* 12多线程.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,7 @@
 		D062282221AE694E002157AE /* 01函数对象的基本使用.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "01函数对象的基本使用.cpp"; sourceTree = "<group>"; };
 		D062282421AE6C02002157AE /* 02谓词.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02谓词.cpp"; sourceTree = "<group>"; };
 		D0A0E46721B5176900D23873 /* 11案例-STL综合案例.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11案例-STL综合案例.cpp"; sourceTree = "<group>"; };
+		D0C30DF421C89C0100BC217D /* 12多线程.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12多线程.cpp"; sourceTree = "<group>"; };
 		D0ED0FBB21B0CFF000F1F655 /* 03内建函数对象.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "03内建函数对象.cpp"; sourceTree = "<group>"; };
 		D0ED0FBD21B0D7B800F1F655 /* 04适配器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "04适配器.cpp"; sourceTree = "<group>"; };
 		D0ED0FBF21B0FA7000F1F655 /* 05常用遍历算法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "05常用遍历算法.cpp"; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 				D0ED0FC721B13BA100F1F655 /* 09常用算数生成算法.cpp */,
 				D0ED0FC921B13D6B00F1F655 /* 10常用集合算法.cpp */,
 				D0A0E46721B5176900D23873 /* 11案例-STL综合案例.cpp */,
+				D0C30DF421C89C0100BC217D /* 12多线程.cpp */,
 			);
 			path = 03;
 			sourceTree = "<group>";
@@ -138,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A0E46821B5176900D23873 /* 11案例-STL综合案例.cpp in Sources */,
+				D0C30DF521C89C0100BC217D /* 12多线程.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
