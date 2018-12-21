@@ -30,6 +30,7 @@
 		D0DDC3CE21CCE5A4006FF044 /* 插入排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "插入排序.cpp"; sourceTree = "<group>"; };
 		D0DDC3D021CCE5DA006FF044 /* 冒泡排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "冒泡排序.cpp"; sourceTree = "<group>"; };
 		D0DDC3D221CCE62E006FF044 /* 折半插入排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "折半插入排序.cpp"; sourceTree = "<group>"; };
+		D0DDC3E721CCEE2D006FF044 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D0F365D321CCD8AC002CC396 /* 04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 04; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F365DD21CCD91F002CC396 /* 链表逆序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "链表逆序.cpp"; sourceTree = "<group>"; };
 		D0F365DF21CCDE9E002CC396 /* 链表的合并.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "链表的合并.cpp"; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 				D0DDC3CE21CCE5A4006FF044 /* 插入排序.cpp */,
 				D0DDC3D021CCE5DA006FF044 /* 冒泡排序.cpp */,
 				D0DDC3D221CCE62E006FF044 /* 折半插入排序.cpp */,
+				D0DDC3E721CCEE2D006FF044 /* readme.md */,
 			);
 			path = 04;
 			sourceTree = "<group>";
