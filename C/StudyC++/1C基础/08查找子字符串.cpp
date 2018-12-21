@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 
+
 // 查找子字符串第一次出现的位置
 const char *searchString(const char *string, const char *subString)
 {
