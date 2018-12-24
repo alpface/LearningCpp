@@ -4,7 +4,7 @@
 //
 //  Created by xiaoyuan on 2018/12/21.
 //  Copyright © 2018 xiaoyuan. All rights reserved.
-//
+//  链表的逆序分为两种：递归逆序和非递归逆序
 
 #include <iostream>
 

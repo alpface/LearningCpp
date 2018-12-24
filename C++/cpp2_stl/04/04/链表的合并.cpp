@@ -15,6 +15,7 @@ struct Node {
     Node *next;
 };
 
+// 生成元素有10个随机数的链表
 Node *make_linkList(void)
 {
     Node *head = new Node();
@@ -26,13 +27,12 @@ Node *make_linkList(void)
     }
     return head;
 }
-
 void printLink(Node *head)
 {
-    Node *cur = head;
-    while (cur) {
-        cout << cur->value << " ";
-        cur = cur->next;
+    Node *pCur = head;
+    while (pCur) {
+        cout << pCur->value << " ";
+        pCur = pCur->next;
     }
     cout << endl;
 }
