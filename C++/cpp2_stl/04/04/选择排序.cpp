@@ -26,11 +26,13 @@ void selectSort(int a[],int size)
 
 int main()
 {
-    int a[]={12,36,24,85,47,30,53,91};
+    int a[]={12,36,24,12,85,47,30,53,91};
+    cout << "排序前:" << endl;
     for(int i=0;i<8;i++)
         cout<<a[i]<<" ";
     cout<<endl;
     
+    cout << "排序后:" << endl;
     selectSort(a,8);
     for(int i=0;i<8;i++)
         cout<<a[i]<<" ";

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0C8763221D09B0B00203F13 /* 链表的合并.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F365DF21CCDE9E002CC396 /* 链表的合并.cpp */; };
+		D0F9D17021E4B8CE00D6B09E /* 折半插入排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0DDC3D221CCE62E006FF044 /* 折半插入排序.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,8 +68,8 @@
 			children = (
 				D0F365DD21CCD91F002CC396 /* 链表逆序.cpp */,
 				D0F365DF21CCDE9E002CC396 /* 链表的合并.cpp */,
-				D0DDC3C621CCE474006FF044 /* 快速排序.cpp */,
 				D0DDC3C821CCE508006FF044 /* 归并排序.cpp */,
+				D0DDC3C621CCE474006FF044 /* 快速排序.cpp */,
 				D0DDC3CA21CCE54E006FF044 /* 堆排序.cpp */,
 				D0DDC3CC21CCE585006FF044 /* 选择排序.cpp */,
 				D0DDC3CE21CCE5A4006FF044 /* 插入排序.cpp */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C8763221D09B0B00203F13 /* 链表的合并.cpp in Sources */,
+				D0F9D17021E4B8CE00D6B09E /* 折半插入排序.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

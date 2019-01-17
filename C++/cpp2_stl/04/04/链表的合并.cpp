@@ -19,14 +19,16 @@ struct Node {
 Node *make_linkList(void)
 {
     Node *head = new Node();
-    Node *cur = head;
+    Node *pCur = head;
     for (int i = 0; i < 10; ++i) {
-        cur->value = rand()%10;
-        cur->next = new Node();
-        cur = cur->next;
+        pCur->value = rand() % 10;
+        pCur->next = new Node();
+        pCur = pCur->next;
     }
     return head;
 }
+
+
 void printLink(Node *head)
 {
     Node *pCur = head;
@@ -36,6 +38,8 @@ void printLink(Node *head)
     }
     cout << endl;
 }
+
+
 
 void  sort(Node *head)
 {

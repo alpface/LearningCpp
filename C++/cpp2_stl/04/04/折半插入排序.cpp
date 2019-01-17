@@ -34,7 +34,8 @@ void BInsertSort(int a[],int size)
 int main()
 {
     int a[]={12,36,24,53,53,30,53,91};
-    for(int i=0;i<8;i++)
+    int count = sizeof(a) / sizeof(int);
+    for(int i=0;i<count;i++)
         cout<<a[i]<<" ";
     cout<<endl;
     
