@@ -17,18 +17,18 @@ void mergeList(int arr1[], int len1, int arr2[], int len2, int result[]) {
     
     while (i < (len1 + len2)) {
         
-        // p 指针已经超出a数组的长度，并且m指针还未超出b数组的长度，则将b数组中剩余的所有元素添加到result中
+        // p1 指针已经超出arr1数组的长度，并且p2指针还未超出arr2数组的长度，则将arr2数组中剩余的所有元素添加到result中
         if (p1 >= arr1 + len1 && p2 < arr2 + len2) {
             result[i] = *p2;
             p2++;
         }
-        // m 指针已经超出b数组的长度，并且p指针还未超出a数组的长度，则将a数组中剩余的所有元素添加到result中
+        // p2 指针已经超出arr2数组的长度，并且p1指针还未超出arr1数组的长度，则将arr1数组中剩余的所有元素添加到result中
         else if (p2 >= arr2 + len2 && p1 < arr1 + len1) {
             result[i] = *p1;
             p1++;
         }
         else {
-            // p和m指向的内容进行比较，谁的值小就放到新的数组中，然后向前移动指向内容小的那个指针，依次进行比较
+            // p1和m2指向的内容进行比较，谁的值小就放到新的数组中，然后向前移动指向内容小的那个指针，依次进行比较
             if (*p1 < *p2) {
                 result[i] = *p1;
                 p1++;

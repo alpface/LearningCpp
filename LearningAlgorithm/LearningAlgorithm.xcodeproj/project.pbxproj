@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D22D61EE22E4BC87008D2460 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../../../../System/Volumes/Data/Users/swae/Documents/Github/StudyC-/LearningAlgorithm/README.md"; sourceTree = "<group>"; };
 		D269C50222E47520005650D4 /* LearningAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		D269C50522E47520005650D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D269C50C22E47537005650D4 /* char_reverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = char_reverse.h; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		D269C4F922E47520005650D4 = {
 			isa = PBXGroup;
 			children = (
+				D22D61EE22E4BC87008D2460 /* README.md */,
 				D269C50422E47520005650D4 /* LearningAlgorithm */,
 				D269C50322E47520005650D4 /* Products */,
 			);
