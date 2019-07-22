@@ -10,18 +10,26 @@
 #import "char_reverse.h"
 #import "linkedlist_reverse.h"
 #import "merge_sorted_list.h"
+#import "hash_find.h"
 
 extern void testMeargeList(void);
 extern void testLinkedListReverse(void);
 extern void testCharReverse(void);
+extern void testFindFirstChar(void);
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         
-        testMeargeList();
+        testFindFirstChar();
     }
     return 0;
+}
+
+void testFindFirstChar(void) {
+    char *src = "abddehba";
+    char firstChar = findFirstChar(src);
+    printf("这个字符串:%s中，首次出现的字符为：%c\n", src, firstChar);
 }
 
 void testMeargeList(void) {

@@ -11,6 +11,7 @@
 		D269C50E22E47537005650D4 /* char_reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = D269C50D22E47537005650D4 /* char_reverse.c */; };
 		D269C51122E4A121005650D4 /* linkedlist_reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = D269C51022E4A121005650D4 /* linkedlist_reverse.c */; };
 		D269C51422E4AE3B005650D4 /* merge_sorted_list.c in Sources */ = {isa = PBXBuildFile; fileRef = D269C51322E4AE3B005650D4 /* merge_sorted_list.c */; };
+		D2864E2722E5FCA40055DF5F /* hash_find.c in Sources */ = {isa = PBXBuildFile; fileRef = D2864E2622E5FCA40055DF5F /* hash_find.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		D269C51022E4A121005650D4 /* linkedlist_reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = linkedlist_reverse.c; sourceTree = "<group>"; };
 		D269C51222E4AE3B005650D4 /* merge_sorted_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = merge_sorted_list.h; sourceTree = "<group>"; };
 		D269C51322E4AE3B005650D4 /* merge_sorted_list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = merge_sorted_list.c; sourceTree = "<group>"; };
+		D2864E2522E5FCA40055DF5F /* hash_find.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hash_find.h; sourceTree = "<group>"; };
+		D2864E2622E5FCA40055DF5F /* hash_find.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hash_find.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				D269C51022E4A121005650D4 /* linkedlist_reverse.c */,
 				D269C51222E4AE3B005650D4 /* merge_sorted_list.h */,
 				D269C51322E4AE3B005650D4 /* merge_sorted_list.c */,
+				D2864E2522E5FCA40055DF5F /* hash_find.h */,
+				D2864E2622E5FCA40055DF5F /* hash_find.c */,
 			);
 			path = LearningAlgorithm;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 				D269C51122E4A121005650D4 /* linkedlist_reverse.c in Sources */,
 				D269C50E22E47537005650D4 /* char_reverse.c in Sources */,
 				D269C50622E47520005650D4 /* main.m in Sources */,
+				D2864E2722E5FCA40055DF5F /* hash_find.c in Sources */,
 				D269C51422E4AE3B005650D4 /* merge_sorted_list.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
