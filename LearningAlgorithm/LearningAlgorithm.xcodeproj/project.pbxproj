@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D26285F122E74E03009C9396 /* median_find.c in Sources */ = {isa = PBXBuildFile; fileRef = D26285F022E74E03009C9396 /* median_find.c */; };
 		D269C50622E47520005650D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D269C50522E47520005650D4 /* main.m */; };
 		D269C50E22E47537005650D4 /* char_reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = D269C50D22E47537005650D4 /* char_reverse.c */; };
 		D269C51122E4A121005650D4 /* linkedlist_reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = D269C51022E4A121005650D4 /* linkedlist_reverse.c */; };
@@ -28,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		D22D61EE22E4BC87008D2460 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../../../../System/Volumes/Data/Users/swae/Documents/Github/StudyC-/LearningAlgorithm/README.md"; sourceTree = "<group>"; };
+		D26285EF22E74E03009C9396 /* median_find.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = median_find.h; path = "../../../../../../../System/Volumes/Data/Users/swae/Documents/Github/StudyC-/LearningAlgorithm/LearningAlgorithm/median_find.h"; sourceTree = "<group>"; };
+		D26285F022E74E03009C9396 /* median_find.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = median_find.c; path = "../../../../../../../System/Volumes/Data/Users/swae/Documents/Github/StudyC-/LearningAlgorithm/LearningAlgorithm/median_find.c"; sourceTree = "<group>"; };
 		D269C50222E47520005650D4 /* LearningAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		D269C50522E47520005650D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D269C50C22E47537005650D4 /* char_reverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = char_reverse.h; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 				D269C51322E4AE3B005650D4 /* merge_sorted_list.c */,
 				D2864E2522E5FCA40055DF5F /* hash_find.h */,
 				D2864E2622E5FCA40055DF5F /* hash_find.c */,
+				D26285EF22E74E03009C9396 /* median_find.h */,
+				D26285F022E74E03009C9396 /* median_find.c */,
 			);
 			path = LearningAlgorithm;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			files = (
 				D269C51122E4A121005650D4 /* linkedlist_reverse.c in Sources */,
 				D269C50E22E47537005650D4 /* char_reverse.c in Sources */,
+				D26285F122E74E03009C9396 /* median_find.c in Sources */,
 				D269C50622E47520005650D4 /* main.m in Sources */,
 				D2864E2722E5FCA40055DF5F /* hash_find.c in Sources */,
 				D269C51422E4AE3B005650D4 /* merge_sorted_list.c in Sources */,

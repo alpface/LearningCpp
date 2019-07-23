@@ -11,19 +11,27 @@
 #import "linkedlist_reverse.h"
 #import "merge_sorted_list.h"
 #import "hash_find.h"
+#include "median_find.h"
 
 extern void testMeargeList(void);
 extern void testLinkedListReverse(void);
 extern void testCharReverse(void);
 extern void testFindFirstChar(void);
+extern void testFindMedian(void);
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         
-        testFindFirstChar();
+        testFindMedian();
     }
     return 0;
+}
+
+void testFindMedian(void) {
+    int arr[9] = {12, 3, 10, 8, 6, 7, 11, 13, 9};
+    int median = findMedian(arr, 9);
+    printf("中位数：%d\n", median);
 }
 
 void testFindFirstChar(void) {
