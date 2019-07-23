@@ -294,3 +294,97 @@ void testFindFirstChar(void) {
 ```
 这个字符串:abddehba中，首次出现的字符为：e
 ```
+
+
+### 查找无序数组中的中位数
+从一个无序的数组`{12, 3, 10, 8, 6, 7, 11, 13, 9}`中查询它的中位数，结果为`9`。
+
+- 什么是中位数
+当n为奇数时，中位数 = (n+1)/2 。
+当n为偶数时，中位数 = (n/2 + (n/2 + 1)) / 2。
+
+以下两种方式都可以实现：
+
+- 排序算法 + 中位数
+使用此种方式，需要先对无序数组进行排序（可使用冒泡排序、快速排序、堆排序...），然后再查找有序数组的中位数。
+
+
+- 利用快排思想（分治思想）
+此种方式最优，选取关键字，高低交替描述。
+使用快排思想，任意挑选一个元素，以该元素为支点，划分集合为两部分。
+如果左侧集合的长度==`(n-1)/2`，那么支点就是中位数。
+如果左侧集合的长度<`(n-1)/2`，那么中位数在右侧，反之，中位数载左侧。
+进入相应的一侧，继续寻找中位数。
+
+初始化两个指针：`low`和`high`，分别指向数组的头部和尾部，开启循环，在循环中high指针向左遍历，找到第一个比high指针的内容小的交换数据，low指针向右遍历，找到第一个比他大的交换数据
+
+```c
+int partSort(int arr[], int start, int end) {
+    int low = start;
+    int high = end;
+    
+    // 读取关键字
+    int key = arr[end];
+    while (low < high) {
+        // 左边的值比key大的值
+        while (low < high && arr[low] <= key) {
+            ++low;
+        }
+        
+        // 右边找比key小的值
+        while (low < high && arr[high] >= key) {
+            --high;
+        }
+        
+        if (low < high) {
+            // 找到之后交换左右的值
+            int temp = arr[low];
+            arr[low] = arr[high];
+            arr[high] = temp;
+        }
+        
+    }
+    
+    int temp = arr[high];
+    arr[high] = arr[end];
+    arr[end] = temp;
+    
+    return low;
+}
+
+// 查找无序数组的中位数
+int findMedian(int arr[], int len) {
+    int low = 0;
+    int high = len - 1;
+    
+    int mid = (len - 1) / 2;
+    int div = partSort(arr, low, high);
+    
+    while (div != mid) {
+        if (mid < div) {
+            // 左半区查找
+            div = partSort(arr, low, div -1);
+        }
+        else {
+            // 右半区查找
+            div = partSort(arr, div + 1, high);
+        }
+    }
+    
+    // 找到中位数
+    return arr[mid];
+}
+
+```
+
+测试：
+```c
+void testFindMedian(void) {
+    int arr[9] = {12, 3, 10, 8, 6, 7, 11, 13, 9};
+    int median = findMedian(arr, 9);
+    printf("中位数：%d\n", median);
+}
+```
+
+输出结果：中位数：9
+
